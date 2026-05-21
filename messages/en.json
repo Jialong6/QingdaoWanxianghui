@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "siteName": "Qingdao Wanxianghui",
+    "siteTagline": "Always grounded on the factory floor.",
+    "siteSubTagline": "Japan-quality bags, made in China and Myanmar."
+  },
+  "nav": {
+    "strength": "Strengths",
+    "oemFlow": "OEM Flow",
+    "factory": "Factories",
+    "works": "Works",
+    "about": "About",
+    "news": "News",
+    "contact": "Contact",
+    "catalog": "Download Catalog",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "sitemap": "Sitemap",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "BAG OEM/ODM FACTORY",
+      "headline": "Always grounded on the factory floor.",
+      "subheadline": "Founded in 2003. A bag OEM/ODM factory with 20+ years serving the Japanese market — twin facilities in Shandong (China) and Yangon (Myanmar) handling backpacks, totes and business bags from small runs to mass production.",
+      "primaryCta": "Contact us",
+      "secondaryCta": "Download catalog",
+      "imageAlt": "Bag production on the factory floor"
+    },
+    "stats": {
+      "eyebrow": "OUR NUMBERS",
+      "title": "By the numbers",
+      "years": "20+ yrs",
+      "yearsLabel": "Since 2003",
+      "factories": "2 sites",
+      "factoriesLabel": "Shandong + Yangon",
+      "staff": "≈ 470",
+      "staffLabel": "Sewing staff",
+      "leadTime": "3 mo.",
+      "leadTimeLabel": "Standard mass-production lead time"
+    },
+    "strengths": {
+      "eyebrow": "OUR STRENGTHS",
+      "title": "Five reasons clients stay with us",
+      "subtitle": "Twenty years on the factory floor taught us what matters.",
+      "viewMore": "Learn more",
+      "items": {
+        "dualFactory": {
+          "title": "Twin facilities, China + Myanmar",
+          "desc": "Shandong handles sampling, rush and small batches. Yangon handles mass production. One company, two playbooks."
+        },
+        "sampling": {
+          "title": "Qingdao sample center, 1-week turnaround",
+          "desc": "Queue time and build time are quoted separately. Two reasonable revisions are standard; we ask for a settled design before we start."
+        },
+        "quality": {
+          "title": "Japan-grade two-stage QC",
+          "desc": "Spec sheets, BOM, first-piece sign-off. X-ray needle detectors in both China and Myanmar. Third-party audits welcome."
+        },
+        "experience": {
+          "title": "Since 2003, only for Japan",
+          "desc": "Twenty plus years dedicated to the Japanese market — from trading houses to listed brands to digital-native EC labels."
+        },
+        "commercial": {
+          "title": "Payment terms that fit your team",
+          "desc": "FOB or CIF. T/T 30/70 for new partners, 1-week terms long term, L/C for larger orders."
+        }
+      }
+    },
+    "painPoints": {
+      "eyebrow": "FAQ FOR PROCUREMENT",
+      "title": "Five problems buyers tell us about",
+      "subtitle": "Most of the friction around China sourcing is fixable. Here is how we fix it.",
+      "problemLabel": "Pain",
+      "solutionLabel": "Our answer",
+      "items": {
+        "language": {
+          "problem": "Communication with the factory breaks down. Progress is invisible.",
+          "solution": "A Japanese-speaking PM owns your project end to end and sends a weekly update — every week."
+        },
+        "rush": {
+          "problem": "No factory will take a rush job.",
+          "solution": "Our China site ships in 30 days at the shortest. Urgent runs are routed through the Qingdao sample center directly."
+        },
+        "smallLot": {
+          "problem": "Small orders get ignored.",
+          "solution": "China site starts from a few hundred units. Myanmar takes 1,500 units per SKU/colour. We are happy to begin with a trial run."
+        },
+        "pricing": {
+          "problem": "The quote is a black box — hard to defend internally.",
+          "solution": "We break the quote down by MOQ, material and process so you have something to walk into the meeting with."
+        },
+        "transparency": {
+          "problem": "We do not know who is actually making the bag.",
+          "solution": "Visit any of our three sites — Qingdao, Shandong, Yangon. If travel is hard, we run a 1-day Zoom walk-through instead."
+        }
+      }
+    },
+    "works": {
+      "eyebrow": "SELECTED WORKS",
+      "title": "Selected works",
+      "subtitle": "Anonymised samples of recent Japan-market projects, organised by category, scale and facility.",
+      "viewMore": "See all works",
+      "items": {
+        "case01": { "title": "Listed Japanese EC brand / commuter backpack" },
+        "case02": { "title": "Outdoor brand / canvas tote" },
+        "case03": { "title": "Inbound trading partner / business bag" },
+        "case04": { "title": "Private school / student daypack" },
+        "case05": { "title": "Outdoor select shop / active backpack" },
+        "case06": { "title": "Sustainable EC / recycled-fabric tote" },
+        "case07": { "title": "Novelty trader / 30-day rush backpack" },
+        "case08": { "title": "New brand / sample build" },
+        "case09": { "title": "Travel goods EC / travel backpack" },
+        "case10": { "title": "Department store private label / premium tote" },
+        "case11": { "title": "Rail operator / commuter business bag" },
+        "case12": { "title": "Early-childhood school / kindergarten backpack" }
+      },
+      "tags": {
+        "qty": "{n} pcs",
+        "qtySample": "Sample",
+        "days": "{n} d",
+        "qingdao": "Qingdao",
+        "shandong": "Shandong",
+        "myanmar": "Myanmar"
+      },
+      "category": {
+        "backpack": "Backpack",
+        "tote": "Tote",
+        "business": "Business",
+        "student": "Student",
+        "other": "Other"
+      }
+    },
+    "oemFlow": {
+      "eyebrow": "OEM PROCESS",
+      "title": "OEM flow",
+      "subtitle": "From first inquiry to shipping — every step is named, scheduled and visible.",
+      "items": {
+        "inquiry": { "name": "Inquiry", "duration": "Same day to 1 day" },
+        "hearing": { "name": "Briefing", "duration": "1–3 days" },
+        "quote": { "name": "Quote", "duration": "3–5 days" },
+        "sampling": { "name": "Sampling", "duration": "Queue + 1 week" },
+        "ppSample": { "name": "PP sample", "duration": "1–2 weeks" },
+        "production": { "name": "Production", "duration": "3 mo. after PP sign-off" },
+        "shipping": { "name": "Shipping & follow-up", "duration": "Within 1 week of ship date" }
+      },
+      "viewMore": "See the full process"
+    },
+    "factory": {
+      "eyebrow": "FACTORIES",
+      "title": "Factories & equipment",
+      "subtitle": "Two facilities, different strengths — used in combination, not as a fallback.",
+      "items": {
+        "shandong": {
+          "name": "Shandong (China)",
+          "subtitle": "Sampling, rush jobs and multi-SKU runs"
+        },
+        "myanmar": {
+          "name": "Myanmar (Better Bags Myanmar)",
+          "subtitle": "Mass production at Japan-grade quality"
+        }
+      },
+      "metrics": {
+        "area": "Floor area",
+        "staff": "Sewing staff",
+        "flatMachine": "Single-needle",
+        "computerMachine": "Programmable",
+        "xrayMachine": "X-ray detectors"
+      },
+      "viewMore": "See factories"
+    },
+    "trust": {
+      "eyebrow": "TRUSTED BY",
+      "title": "Trusted partners",
+      "subtitle": "Twenty years of work shows in the press, in the customer mix, and in the certifications we hold.",
+      "mediaTitle": "In the press",
+      "customerTitle": "Customer mix",
+      "certTitle": "Certifications",
+      "customers": {
+        "ec": "Listed Japanese EC brands",
+        "shosha": "General trading houses",
+        "select": "Select shops",
+        "indie": "Indie brands"
+      },
+      "cert": {
+        "iso9001": "ISO 9001",
+        "bsci": "BSCI",
+        "sedex": "SEDEX"
+      }
+    },
+    "cta": {
+      "eyebrow": "NEXT STEP",
+      "title": "Talk to us — early is fine.",
+      "subtitle": "Even at the exploration stage. A Japanese-speaking partner will respond personally.",
+      "items": {
+        "inquiry": {
+          "title": "Contact us",
+          "desc": "Tell us what you have in mind. We reply within 24 hours.",
+          "cta": "Send inquiry"
+        },
+        "catalog": {
+          "title": "Catalog",
+          "desc": "Factories, equipment, recent work — one PDF.",
+          "cta": "Download"
+        },
+        "visit": {
+          "title": "Factory tour",
+          "desc": "Qingdao, Shandong or Yangon — pick any of the three.",
+          "cta": "Request a visit"
+        }
+      }
+    }
+  },
+  "inquiry": {
+    "eyebrow": "CONTACT",
+    "title": "Contact us",
+    "subtitle": "Even at the exploration stage — a Japanese-speaking partner replies within 24 hours.",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contact",
+    "fields": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Sample Inc.",
+      "contactName": "Your name",
+      "contactNamePlaceholder": "Taro Yamada",
+      "email": "Email",
+      "emailPlaceholder": "taro@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+81-3-1234-5678",
+      "language": "Preferred language",
+      "productCategory": "Product category",
+      "quantity": "Estimated quantity",
+      "quantityPlaceholder": "e.g. 1,500 pcs",
+      "desiredLeadTime": "Desired lead time",
+      "desiredLeadTimePlaceholder": "e.g. within 3 months",
+      "quoteTerms": "Quote terms",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what you have in mind (max 500 chars)",
+      "attachments": "Reference images / design files",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・max 10MB each・up to 5 files",
+      "privacyAgree": "I agree to the Privacy Policy"
+    },
+    "language": {
+      "ja": "日本語",
+      "zh": "中文",
+      "en": "English"
+    },
+    "category": {
+      "backpack": "Backpack",
+      "tote": "Tote",
+      "business": "Business",
+      "student": "Student",
+      "other": "Other"
+    },
+    "quoteTerms": {
+      "fob": "FOB",
+      "cif": "CIF",
+      "undecided": "Undecided / discuss"
+    },
+    "errors": {
+      "required": "This field is required",
+      "tooLong": "Exceeds the maximum length",
+      "invalidEmail": "Please enter a valid email address",
+      "selectAtLeastOne": "Please select at least one",
+      "mustAgree": "Agreement is required",
+      "fileTooLarge": "Each file must be 10MB or less",
+      "invalidFileType": "Unsupported file type",
+      "tooManyFiles": "Up to 5 files allowed",
+      "submitFailed": "Submission failed. Please try again later."
+    },
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "thanks": {
+      "title": "Thank you for your inquiry",
+      "body": "We will review your message and reply within 24 hours.",
+      "backHome": "Back to home"
+    }
+  },
+  "catalog": {
+    "eyebrow": "CATALOG",
+    "title": "Download catalog",
+    "subtitle": "We will send the latest catalog (PDF) covering factories, equipment and recent work.",
+    "breadcrumbHome": "Home",
+    "breadcrumb": "Catalog DL",
+    "fields": {
+      "companyName": "Company name",
+      "contactName": "Your name",
+      "email": "Email",
+      "industry": "Industry"
+    },
+    "industry": {
+      "ec": "EC / online retail",
+      "shosha": "Trading / wholesale",
+      "select": "Select shop",
+      "brand": "Brand / maker",
+      "other": "Other"
+    }
+  },
+  "visit": {
+    "eyebrow": "FACTORY TOUR",
+    "title": "Request a factory tour",
+    "subtitle": "Visit any of our three sites — Qingdao, Shandong or Yangon.",
+    "breadcrumbHome": "Home",
+    "breadcrumb": "Factory tour",
+    "fields": {
+      "companyName": "Company name",
+      "contactName": "Your name",
+      "email": "Email",
+      "sites": "Sites to visit",
+      "preferredDate": "Preferred dates",
+      "preferredDatePlaceholder": "e.g. early July 2026, 2nd choice late July",
+      "companions": "Number of visitors",
+      "companionsPlaceholder": "e.g. 2",
+      "translation": "Interpretation",
+      "airportPickup": "Request airport pickup",
+      "message": "Notes",
+      "messagePlaceholder": "Any questions or requests (max 500 chars)"
+    },
+    "sites": {
+      "qingdao": "Qingdao Sample Center",
+      "shandong": "Shandong factory",
+      "myanmar": "Yangon factory"
+    },
+    "translationOption": {
+      "none": "Not needed",
+      "ja": "Japanese",
+      "en": "English",
+      "zh": "Chinese"
+    },
+    "visaNote": "* Visiting the Myanmar site requires a visa. Please apply 1–2 weeks in advance."
+  },
+  "sample": {
+    "eyebrow": "SAMPLE",
+    "title": "Sample request",
+    "subtitle": "Send a design or reference and we will build a sample.",
+    "breadcrumbHome": "Home",
+    "breadcrumb": "Sample request",
+    "fields": {
+      "companyName": "Company name",
+      "contactName": "Your name",
+      "email": "Email",
+      "productCategory": "Product category",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "e.g. 1–3 pcs",
+      "shippingAddress": "Shipping address",
+      "shippingAddressPlaceholder": "Delivery address in Japan",
+      "attachments": "Design / reference images",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・max 10MB each・up to 5 files"
+    }
+  },
+  "pages": {
+    "news": {
+      "breadcrumb": "News",
+      "title": "News & Column",
+      "intro": "Latest factory updates and columns.",
+      "body": "Content is in preparation. News and columns will be published progressively. (XXX-content TBC)"
+    },
+    "quality": {
+      "breadcrumb": "Quality",
+      "title": "Quality & Inspection",
+      "intro": "Japan-grade two-stage inspection + X-ray needle detection.",
+      "body": "X-ray needle detectors at both China and Myanmar sites. Spec sheets, BOM and first-piece sign-off plus two-stage inspection deliver Japan-grade quality. Third-party audits welcome. (XXX-details TBC)"
+    },
+    "leadTime": {
+      "breadcrumb": "Lead time",
+      "title": "Lead time & Supply",
+      "intro": "Clear per-step lead times and stable supply.",
+      "body": "China site ships in 30 days at the shortest; Myanmar mass production about 3 months after PP sign-off. Logistics routed via Dongguan Shatian warehouse → Yangon port. (XXX-details TBC)"
+    },
+    "careers": {
+      "breadcrumb": "Careers",
+      "title": "Careers",
+      "intro": "(Coming soon)",
+      "body": "Careers information is in preparation. (XXX-phase 2)"
+    },
+    "privacy": {
+      "breadcrumb": "Privacy Policy",
+      "title": "Privacy Policy",
+      "intro": "How we handle personal information",
+      "body": "This site manages personal information obtained via inquiries in accordance with Japan's APPI. (XXX-final draft pending legal review)"
+    },
+    "terms": {
+      "breadcrumb": "Terms of Use",
+      "title": "Terms of Use",
+      "intro": "Conditions for using this site",
+      "body": "Terms for using this site. (XXX-final draft pending legal review)"
+    },
+    "sitemap": {
+      "breadcrumb": "Sitemap",
+      "title": "Sitemap",
+      "intro": "A list of the main pages on this site."
+    },
+    "strength": {
+      "breadcrumb": "Strengths",
+      "intro": "Choosing a bag OEM factory is not only about price and lead time. Ease of communication, response to last-minute changes, the reassurance of a company that has stood in the same place for 20 years — these intangibles are why clients stay."
+    },
+    "oemFlow": {
+      "breadcrumb": "OEM Flow",
+      "intro": "From first inquiry to shipping, every step's duration and deliverable is made explicit.",
+      "faqTitle": "FAQ",
+      "faq": {
+        "inquiry": {
+          "q": "What should I prepare for the first inquiry?",
+          "a": "Just a rough idea of category, quantity and desired lead time. Attach design files if you have them."
+        },
+        "sampling": {
+          "q": "How many sample revisions are covered?",
+          "a": "Typically 1–2 reasonable revisions."
+        },
+        "production": {
+          "q": "What is the standard production lead time?",
+          "a": "About 3 months after PP sample sign-off (Myanmar mass production)."
+        }
+      }
+    },
+    "about": {
+      "breadcrumb": "About",
+      "intro": "Since our founding in 2003, we have dedicated ourselves to bag OEM/ODM for the Japanese market.",
+      "profileTitle": "Company profile",
+      "historyTitle": "History",
+      "messageTitle": "Message from the CEO",
+      "profile": {
+        "companyName": { "label": "Company", "value": "Qingdao Wanxianghui (XXX-registered name TBC)" },
+        "founded": { "label": "Founded", "value": "2003" },
+        "representative": { "label": "Representative", "value": "XXX-name" },
+        "locations": {
+          "label": "Locations",
+          "value": "Qingdao HQ / Shandong factory / Yangon factory (Better Bags Myanmar)"
+        },
+        "staff": { "label": "Staff", "value": "≈ 470 (China + Myanmar)" },
+        "business": {
+          "label": "Business",
+          "value": "OEM/ODM manufacturing of backpacks, totes, business bags, etc."
+        },
+        "certifications": { "label": "Certifications", "value": "XXX-BSCI / SEDEX / ISO TBC" }
+      },
+      "history": {
+        "founded": "Qingdao Wanxianghui established",
+        "firstClient": "First Japanese client",
+        "milestone2010": "XXX-business expansion milestone",
+        "myanmarStart": "Yangon factory (Better Bags Myanmar) begins operation",
+        "qingdaoExpand": "Qingdao sample center expanded",
+        "siteRenewal": "Official website renewal"
+      },
+      "message": {
+        "body": "For 20 years we have valued staying grounded on the factory floor — imagining the daily life of the person beyond the drawing, one careful stitch at a time. We will continue this path with our Japanese clients in good faith. (XXX-final CEO message pending)",
+        "signature": "CEO  XXX-name"
+      }
+    },
+    "works": {
+      "breadcrumb": "Works",
+      "intro": "Anonymised samples of recent Japan-market projects, organised by category, scale and facility.",
+      "filterAll": "All",
+      "detail": {
+        "overviewTitle": "Project overview",
+        "overviewBody": "We optimised everything from material selection to sewing spec to fit the client's needs. (XXX-per-project detail to be added)",
+        "highlightsTitle": "Process highlights",
+        "highlights": {
+          "0": "Material and lining selected for the use case",
+          "1": "Two-stage inspection + X-ray needle detection",
+          "2": "Final alignment via pre-production PP sample"
+        },
+        "metaTitle": "Project info",
+        "metaCategory": "Category",
+        "metaQuantity": "Quantity",
+        "metaFactory": "Facility",
+        "metaDuration": "Duration",
+        "galleryTitle": "Gallery",
+        "relatedTitle": "Related works",
+        "cta": "Discuss a similar project"
+      }
+    },
+    "factory": {
+      "breadcrumb": "Factories",
+      "intro": "Two countries, three sites — sampling, small batches and mass production, each at the right place.",
+      "items": {
+        "qingdao": { "name": "Qingdao Sample Center", "subtitle": "Development, sampling, revision, costing. First sample in as little as 1 week." },
+        "shandong": { "name": "Shandong (China)", "subtitle": "Sampling, rush jobs and multi-SKU runs" },
+        "myanmar": { "name": "Myanmar (Better Bags Myanmar)", "subtitle": "Mass production at Japan-grade quality" }
+      },
+      "metrics": {
+        "area": "Floor area",
+        "staff": "Sewing staff",
+        "flatMachine": "Single-needle",
+        "computerMachine": "Programmable",
+        "xrayMachine": "X-ray detectors",
+        "sampleWeeks": "wks to first sample",
+        "coreServices": "core services"
+      }
+    },
+    "contact": {
+      "breadcrumb": "Contact",
+      "intro": "Pick the window that best fits your inquiry.",
+      "phoneNote": "By phone: XXX-public number (weekdays 9:00-18:00 JST)",
+      "open": "Open",
+      "entries": {
+        "inquiry": { "title": "Contact / Inquiry", "desc": "Tell us what you have in mind. We reply within 24 hours." },
+        "catalog": { "title": "Catalog DL", "desc": "Factories, equipment and recent work — one PDF." },
+        "visit": { "title": "Factory tour", "desc": "Qingdao, Shandong or Yangon — pick any of the three." },
+        "sample": { "title": "Sample request", "desc": "Send a design or reference and we will build a sample." }
+      }
+    }
+  },
+  "footer": {
+    "company": "COMPANY",
+    "services": "SERVICES",
+    "products": "PRODUCTS",
+    "resources": "RESOURCES",
+    "social": "SOCIAL",
+    "companyProfile": "Company profile",
+    "message": "Message from CEO",
+    "history": "History",
+    "careers": "Careers",
+    "oemFlow": "OEM flow",
+    "quality": "Quality & Inspection",
+    "factory": "Factories & Equipment",
+    "leadTime": "Lead time",
+    "backpack": "Backpacks",
+    "tote": "Totes",
+    "business": "Business bags",
+    "student": "Student bags",
+    "catalog": "Catalog DL",
+    "contact": "Contact",
+    "visit": "Factory tour",
+    "newsletter": "Newsletter",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "wechat": "WeChat",
+    "addressesTitle": "Locations",
+    "qingdaoLabel": "Qingdao HQ",
+    "qingdaoAddress": "Qingdao, Shandong, China — XXX",
+    "shandongLabel": "Shandong Factory",
+    "shandongAddress": "Luohe Town, Ju County, Rizhao, Shandong, China",
+    "myanmarLabel": "Myanmar Factory",
+    "myanmarAddress": "NGWE PIN LAI, Yangon (Better Bags Myanmar)",
+    "copyright": "© {year} Qingdao Wanxianghui. All rights reserved."
+  },
+  "noticeBar": {
+    "dismiss": "Dismiss"
+  },
+  "localeSuggestion": {
+    "ja": "日本語でご覧になりたい場合はこちら",
+    "en": "View this site in English",
+    "zh": "查看本站中文版"
+  },
+  "floatingContact": {
+    "label": "Contact",
+    "email": "Email us",
+    "phone": "Call us",
+    "close": "Close"
+  },
+  "common": {
+    "loading": "Loading…",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "language": "Switch language"
+  }
+}

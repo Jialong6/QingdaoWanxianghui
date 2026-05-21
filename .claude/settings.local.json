@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find app/[locale] -name page.tsx)",
+      "Bash(lsof -i :3300 -t)",
+      "Bash(tail -4 /tmp/wxh-start.log)",
+      "Bash(curl -s http://localhost:3300/ja)",
+      "Bash(curl -s http://localhost:3300/ja/oem-flow)",
+      "Bash(xargs -r kill -9)",
+      "Bash(npm run *)",
+      "Bash(PORT=3300 npx next start -p 3300)",
+      "Bash(grep -qE \"Ready\" /tmp/wxh-start.log)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(grep -E \"node_modules|\\\\.next/|^\\\\.env$\")"
+    ]
+  }
+}

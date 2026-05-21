@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "siteName": "青島万翔輝",
+    "siteTagline": "どこまでも、現場であること。",
+    "siteSubTagline": "中国と緬甸から、日本品質のバッグを。"
+  },
+  "nav": {
+    "strength": "当社の強み",
+    "oemFlow": "OEM の流れ",
+    "factory": "工場と設備",
+    "works": "制作事例",
+    "about": "会社案内",
+    "news": "お知らせ",
+    "contact": "お問い合わせ",
+    "catalog": "カタログ DL",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "sitemap": "サイトマップ",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "BAG OEM/ODM FACTORY",
+      "headline": "どこまでも、現場であること。",
+      "subheadline": "2003 年創業、日本市場 20 年以上のバッグ OEM/ODM 工場。中国山東 + 緬甸仰光の双拠点で、リュック・トート・ビジネスバッグの小ロットから大量生産まで対応します。",
+      "primaryCta": "お問い合わせ",
+      "secondaryCta": "カタログをダウンロード",
+      "imageAlt": "工場車間のバッグ製造現場"
+    },
+    "stats": {
+      "eyebrow": "OUR NUMBERS",
+      "title": "数字で見る、私たちの足あと",
+      "years": "20+ 年",
+      "yearsLabel": "創業以来",
+      "factories": "2 拠点",
+      "factoriesLabel": "中国山東 + 緬甸仰光",
+      "staff": "約 470 名",
+      "staffLabel": "縫製スタッフ",
+      "leadTime": "3 ヶ月",
+      "leadTimeLabel": "標準大貨納期"
+    },
+    "strengths": {
+      "eyebrow": "OUR STRENGTHS",
+      "title": "5 つの強み",
+      "subtitle": "なぜ青島万翔輝が選ばれるのか。20 年の現場で磨き上げた答えです。",
+      "viewMore": "詳しく見る",
+      "items": {
+        "dualFactory": {
+          "title": "中国 + 緬甸の双拠点",
+          "desc": "中国山東で打样・急単・多品種、緬甸仰光で大ロット長単。同じ会社で 2 つの強みを使い分けます。"
+        },
+        "sampling": {
+          "title": "青島打样中心、最短 1 週間",
+          "desc": "排期と制作を分けて透明化。デザインの方向性をご決定いただいた上で、1〜2 回の合理的な修正で確認まで。"
+        },
+        "quality": {
+          "title": "日本基準の二段品質管理",
+          "desc": "工艺单 + 用量表 + 首件確認の標準流程。X 線検針機を中国・緬甸両工場に配備、第三者検品にも対応します。"
+        },
+        "experience": {
+          "title": "2003 年から、日本市場と共に",
+          "desc": "20 年以上、日本市場一筋。商社・上場ブランド・新興 EC まで、幅広い実績で多様なご要望に応えます。"
+        },
+        "commercial": {
+          "title": "商社にも新規にもフィットする決済",
+          "desc": "FOB / CIF いずれも対応。T/T 30% + 70%、長期は 1 週間、L/C 大口にも応じます。"
+        }
+      }
+    },
+    "painPoints": {
+      "eyebrow": "FAQ FOR PROCUREMENT",
+      "title": "よくお聞きするお悩み、5 つ",
+      "subtitle": "「中国工場あるある」を、私たちはこう変えました。",
+      "problemLabel": "お悩み",
+      "solutionLabel": "私たちの答え",
+      "items": {
+        "language": {
+          "problem": "中国工場と話が噛み合わない、進捗が見えない。",
+          "solution": "日本語が話せるプロジェクト担当が一気通貫で対応。週次レポートを必ずお届けします。"
+        },
+        "rush": {
+          "problem": "急ぎの案件に対応してくれる工場が見つからない。",
+          "solution": "国内拠点で最短 30 日納品。緊急ロットは青島打样中心が直接対応します。"
+        },
+        "smallLot": {
+          "problem": "小ロットだと相手にされない。",
+          "solution": "国内拠点は数百個から、緬甸は単款単色 1,500 個から。試単から長くお付き合いします。"
+        },
+        "pricing": {
+          "problem": "価格の根拠が不透明で、社内説明がしづらい。",
+          "solution": "MOQ・素材・工程ごとに見積もりを公開。後から「なぜこの価格か」を社内で説明できる資料をお渡しします。"
+        },
+        "transparency": {
+          "problem": "工場の中が見えない、現場の人を知らない。",
+          "solution": "工場見学を青島・山東・緬甸の 3 拠点いずれも歓迎。難しい場合は 1 日同行の Zoom ライブ視察も可能です。"
+        }
+      }
+    },
+    "works": {
+      "eyebrow": "SELECTED WORKS",
+      "title": "制作事例",
+      "subtitle": "日本市場で実際に納品した案件から、業種・規模・拠点ごとに抜粋。お客様情報は守秘の範囲で匿名化しています。",
+      "viewMore": "事例一覧を見る",
+      "items": {
+        "case01": { "title": "日本上場 EC ブランド様 / 通勤リュック" },
+        "case02": { "title": "アウトドアブランド様 / トートバッグ" },
+        "case03": { "title": "ビジネスインバウンド商社様 / ビジネスバッグ" },
+        "case04": { "title": "私立学校 OEM 様 / 学生用デイパック" },
+        "case05": { "title": "アウトドアセレクト様 / アクティブバックパック" },
+        "case06": { "title": "サステナブル EC 様 / リサイクル素材トート" },
+        "case07": { "title": "ノベルティ商社様 / 短納期リュック" },
+        "case08": { "title": "新規ブランド様 / サンプル試作" },
+        "case09": { "title": "旅行用品 EC 様 / トラベルバックパック" },
+        "case10": { "title": "百貨店プライベートブランド様 / プレミアムトート" },
+        "case11": { "title": "鉄道系企業様 / 通勤ビジネスバッグ" },
+        "case12": { "title": "幼児教育法人様 / 通園リュック" }
+      },
+      "tags": {
+        "qty": "{n} 個",
+        "qtySample": "サンプル",
+        "days": "{n} 日",
+        "qingdao": "青島打样",
+        "shandong": "山東",
+        "myanmar": "緬甸"
+      },
+      "category": {
+        "backpack": "リュック",
+        "tote": "トート",
+        "business": "ビジネス",
+        "student": "学生用",
+        "other": "その他"
+      }
+    },
+    "oemFlow": {
+      "eyebrow": "OEM PROCESS",
+      "title": "OEM の流れ",
+      "subtitle": "お問い合わせから出荷まで、すべての工程を可視化します。",
+      "items": {
+        "inquiry": { "name": "お問い合わせ", "duration": "当日〜 1 営業日" },
+        "hearing": { "name": "ヒアリング", "duration": "1〜3 営業日" },
+        "quote": { "name": "概算御見積り", "duration": "3〜5 営業日" },
+        "sampling": { "name": "サンプリング", "duration": "排期 + 1 週間" },
+        "ppSample": { "name": "PP サンプル確認", "duration": "1〜2 週間" },
+        "production": { "name": "量産", "duration": "PP 確認後 3 ヶ月" },
+        "shipping": { "name": "出荷・アフターフォロー", "duration": "出荷後 1 週間" }
+      },
+      "viewMore": "詳しい工程を見る"
+    },
+    "factory": {
+      "eyebrow": "FACTORIES",
+      "title": "工場と設備",
+      "subtitle": "中国山東と緬甸仰光、性格の異なる 2 つの自社工場を使い分けます。",
+      "items": {
+        "shandong": {
+          "name": "山東工場",
+          "subtitle": "打样・急單・多品種に強い国内拠点"
+        },
+        "myanmar": {
+          "name": "緬甸工場（Better Bags Myanmar）",
+          "subtitle": "大ロット長単と日本品質を両立する海外拠点"
+        }
+      },
+      "metrics": {
+        "area": "面積",
+        "staff": "縫製スタッフ",
+        "flatMachine": "平車",
+        "computerMachine": "電脳車",
+        "xrayMachine": "X 線検針機"
+      },
+      "viewMore": "工場詳細を見る"
+    },
+    "trust": {
+      "eyebrow": "TRUSTED BY",
+      "title": "信頼の証",
+      "subtitle": "20 年の現場で積み重ねた、メディア掲載・お取引業種・取得認証。",
+      "mediaTitle": "メディア掲載",
+      "customerTitle": "主要なお取引業種",
+      "certTitle": "取得認証",
+      "customers": {
+        "ec": "日本上場 EC ブランド様",
+        "shosha": "総合商社様",
+        "select": "セレクトショップ様",
+        "indie": "独立ブランド様"
+      },
+      "cert": {
+        "iso9001": "ISO 9001",
+        "bsci": "BSCI",
+        "sedex": "SEDEX"
+      }
+    },
+    "cta": {
+      "eyebrow": "NEXT STEP",
+      "title": "まずは、お気軽にご相談ください。",
+      "subtitle": "ご検討段階でもお気軽にどうぞ。担当者が日本語で承ります。",
+      "items": {
+        "inquiry": {
+          "title": "お問い合わせ",
+          "desc": "ご要件をお聞かせください。24 時間以内にご返信します。",
+          "cta": "問い合わせる"
+        },
+        "catalog": {
+          "title": "カタログ DL",
+          "desc": "工場・設備・実績をまとめた最新版カタログ（PDF）。",
+          "cta": "ダウンロード"
+        },
+        "visit": {
+          "title": "工場見学",
+          "desc": "青島・山東・緬甸、いずれの拠点もご見学いただけます。",
+          "cta": "見学を申し込む"
+        }
+      }
+    }
+  },
+  "inquiry": {
+    "eyebrow": "CONTACT",
+    "title": "お問い合わせ",
+    "subtitle": "ご検討段階でもお気軽にどうぞ。担当者が日本語で 24 時間以内にご返信します。",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbContact": "お問い合わせ",
+    "fields": {
+      "companyName": "御社名",
+      "companyNamePlaceholder": "株式会社サンプル",
+      "contactName": "ご担当者名",
+      "contactNamePlaceholder": "山田 太郎",
+      "email": "メールアドレス",
+      "emailPlaceholder": "taro@example.com",
+      "phone": "電話番号",
+      "phonePlaceholder": "03-1234-5678",
+      "language": "ご希望の言語",
+      "productCategory": "製品カテゴリー",
+      "quantity": "想定数量",
+      "quantityPlaceholder": "例：1,500 個",
+      "desiredLeadTime": "希望納期",
+      "desiredLeadTimePlaceholder": "例：3 ヶ月以内",
+      "quoteTerms": "御見積もり条件",
+      "message": "ご相談内容",
+      "messagePlaceholder": "ご相談内容をご記入ください（500 字以内）",
+      "attachments": "参考画像 / 設計稿",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・1 ファイル最大 10MB・5 ファイルまで",
+      "privacyAgree": "プライバシーポリシーに同意します"
+    },
+    "language": {
+      "ja": "日本語",
+      "zh": "中文",
+      "en": "English"
+    },
+    "category": {
+      "backpack": "リュック",
+      "tote": "トート",
+      "business": "ビジネス",
+      "student": "学生用",
+      "other": "その他"
+    },
+    "quoteTerms": {
+      "fob": "FOB",
+      "cif": "CIF",
+      "undecided": "未定 / ご相談"
+    },
+    "errors": {
+      "required": "必須項目です",
+      "tooLong": "文字数が上限を超えています",
+      "invalidEmail": "正しいメールアドレスを入力してください",
+      "selectAtLeastOne": "1 つ以上お選びください",
+      "mustAgree": "同意が必要です",
+      "fileTooLarge": "1 ファイルあたり 10MB までです",
+      "invalidFileType": "対応していないファイル形式です",
+      "tooManyFiles": "ファイルは 5 つまでです",
+      "submitFailed": "送信に失敗しました。時間をおいて再度お試しください。"
+    },
+    "submit": "送信する",
+    "submitting": "送信中…",
+    "thanks": {
+      "title": "お問い合わせありがとうございます",
+      "body": "内容を確認のうえ、担当者が 24 時間以内に日本語でご返信いたします。",
+      "backHome": "ホームに戻る"
+    }
+  },
+  "catalog": {
+    "eyebrow": "CATALOG",
+    "title": "カタログダウンロード",
+    "subtitle": "工場・設備・実績をまとめた最新版カタログ（PDF）をお送りします。",
+    "breadcrumbHome": "ホーム",
+    "breadcrumb": "カタログ DL",
+    "fields": {
+      "companyName": "御社名",
+      "contactName": "ご担当者名",
+      "email": "メールアドレス",
+      "industry": "業種"
+    },
+    "industry": {
+      "ec": "EC・ネット通販",
+      "shosha": "商社・卸",
+      "select": "セレクトショップ",
+      "brand": "ブランド・メーカー",
+      "other": "その他"
+    }
+  },
+  "visit": {
+    "eyebrow": "FACTORY TOUR",
+    "title": "工場見学申込",
+    "subtitle": "青島・山東・緬甸、いずれの拠点もご見学いただけます。",
+    "breadcrumbHome": "ホーム",
+    "breadcrumb": "工場見学申込",
+    "fields": {
+      "companyName": "御社名",
+      "contactName": "ご担当者名",
+      "email": "メールアドレス",
+      "sites": "希望見学拠点",
+      "preferredDate": "希望日（候補）",
+      "preferredDatePlaceholder": "例：2026 年 7 月上旬、第 2 希望 7 月下旬",
+      "companions": "同行人数",
+      "companionsPlaceholder": "例：2 名",
+      "translation": "通訳の希望",
+      "airportPickup": "空港送迎を希望する",
+      "message": "ご要望・自由記述",
+      "messagePlaceholder": "ご質問やご要望をご記入ください（500 字以内）"
+    },
+    "sites": {
+      "qingdao": "青島打样中心",
+      "shandong": "山東日照工場",
+      "myanmar": "緬甸仰光工場"
+    },
+    "translationOption": {
+      "none": "不要",
+      "ja": "日本語",
+      "en": "English",
+      "zh": "中文"
+    },
+    "visaNote": "※ 緬甸拠点の見学はビザ手続きが必要です。1〜2 週間前にお申し込みください。"
+  },
+  "sample": {
+    "eyebrow": "SAMPLE",
+    "title": "サンプル依頼",
+    "subtitle": "デザイン稿・参考品をお送りいただければ試作いたします。",
+    "breadcrumbHome": "ホーム",
+    "breadcrumb": "サンプル依頼",
+    "fields": {
+      "companyName": "御社名",
+      "contactName": "ご担当者名",
+      "email": "メールアドレス",
+      "productCategory": "希望製品カテゴリー",
+      "quantity": "希望数量",
+      "quantityPlaceholder": "例：1〜3 個",
+      "shippingAddress": "配送先住所",
+      "shippingAddressPlaceholder": "日本国内の配送先をご記入ください",
+      "attachments": "デザイン稿 / 参考品画像",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・1 ファイル最大 10MB・5 ファイルまで"
+    }
+  },
+  "pages": {
+    "news": {
+      "breadcrumb": "お知らせ",
+      "title": "お知らせ・コラム",
+      "intro": "工場の最新情報とコラムをお届けします。",
+      "body": "コンテンツを準備中です。お知らせ・コラムは順次公開予定です。（XXX-公告とコラム内容を順次追加）"
+    },
+    "quality": {
+      "breadcrumb": "品質と検品",
+      "title": "品質と検品体制",
+      "intro": "日本基準の二段検品 + X 線検針で品質を保証します。",
+      "body": "中国・緬甸両工場に X 線検針機を配備。工艺单・用量表・首件確認による標準フローと二段検品で、日本品質を実現します。第三者監査にも対応します。（XXX-詳細データ待補充）"
+    },
+    "leadTime": {
+      "breadcrumb": "納期管理",
+      "title": "納期と供給管理",
+      "intro": "工程ごとの納期を明確にし、安定供給を実現します。",
+      "body": "国内拠点は最短 30 日、緬甸大貨は PP 確認後約 3 ヶ月。物流は東莞沙田倉 → 仰光港のルートで管理します。（XXX-詳細待補充）"
+    },
+    "careers": {
+      "breadcrumb": "採用情報",
+      "title": "採用情報",
+      "intro": "（準備中）",
+      "body": "採用情報は準備中です。（XXX-第 2 期公開予定）"
+    },
+    "privacy": {
+      "breadcrumb": "プライバシーポリシー",
+      "title": "プライバシーポリシー",
+      "intro": "個人情報の取扱いについて",
+      "body": "本サイトは個人情報保護法（APPI）に基づき、お問い合わせ等で取得した個人情報を適切に管理します。（XXX-Legal 顧問による最終稿待ち）"
+    },
+    "terms": {
+      "breadcrumb": "利用規約",
+      "title": "利用規約",
+      "intro": "本サイトのご利用条件",
+      "body": "本サイトのご利用にあたっての規約です。（XXX-Legal 顧問による最終稿待ち）"
+    },
+    "sitemap": {
+      "breadcrumb": "サイトマップ",
+      "title": "サイトマップ",
+      "intro": "サイト内の主要ページ一覧です。"
+    },
+    "strength": {
+      "breadcrumb": "当社の強み",
+      "intro": "バッグ OEM 工場の選び方は、価格と納期だけではありません。打ち合わせのしやすさ、急な変更への対応、20 年同じ場所にあるという安心感——目に見えにくい部分こそ、長くお付き合いいただく理由です。"
+    },
+    "oemFlow": {
+      "breadcrumb": "OEM の流れ",
+      "intro": "お問い合わせから出荷まで、各工程の期間と成果物を明確にします。",
+      "faqTitle": "よくあるご質問",
+      "faq": {
+        "inquiry": {
+          "q": "問い合わせ時に何を準備すればいいですか？",
+          "a": "品類・数量・希望納期の概要だけで大丈夫です。設計稿があれば添付ください。"
+        },
+        "sampling": {
+          "q": "サンプルは何回まで対応できますか？",
+          "a": "通常 1〜2 回の合理的な修正に対応します。"
+        },
+        "production": {
+          "q": "量産の標準納期は？",
+          "a": "PP サンプル確認後、約 3 ヶ月（緬甸大貨）です。"
+        }
+      }
+    },
+    "about": {
+      "breadcrumb": "会社案内",
+      "intro": "2003 年の創業以来、日本市場一筋でバッグ OEM/ODM を手がけてきました。",
+      "profileTitle": "会社概要",
+      "historyTitle": "沿革",
+      "messageTitle": "代表挨拶",
+      "profile": {
+        "companyName": { "label": "会社名", "value": "青島万翔輝（XXX-登記名確認中）" },
+        "founded": { "label": "創業", "value": "2003 年" },
+        "representative": { "label": "代表者", "value": "XXX-代表者氏名" },
+        "locations": {
+          "label": "所在地",
+          "value": "青島本社 / 山東日照工場 / 緬甸仰光工場（Better Bags Myanmar）"
+        },
+        "staff": { "label": "従業員数", "value": "約 470 名（中国 + 緬甸）" },
+        "business": {
+          "label": "主要事業",
+          "value": "リュック・トート・ビジネスバッグ等の OEM/ODM 製造"
+        },
+        "certifications": { "label": "認証・資格", "value": "XXX-BSCI / SEDEX / ISO 等確認中" }
+      },
+      "history": {
+        "founded": "青島万翔輝 設立",
+        "firstClient": "初の日本顧客との取引開始",
+        "milestone2010": "XXX-業務拡大の節目",
+        "myanmarStart": "緬甸仰光工場（Better Bags Myanmar）操業開始",
+        "qingdaoExpand": "青島打样中心 拡張",
+        "siteRenewal": "公式サイト リニューアル"
+      },
+      "message": {
+        "body": "20 年間、私たちは「現場であること」を大切にしてきました。図面の向こうにある使う人の毎日を想像し、一針ずつ丁寧に。日本のお客様と歩んできたこの道を、これからも誠実に続けてまいります。（XXX-代表寄語の最終稿待ち）",
+        "signature": "代表取締役　XXX-代表者氏名"
+      }
+    },
+    "works": {
+      "breadcrumb": "制作事例",
+      "intro": "日本市場で実際に納品した案件から、品類・規模・拠点ごとに抜粋しています。お客様情報は守秘の範囲で匿名化しています。",
+      "filterAll": "すべて",
+      "detail": {
+        "overviewTitle": "プロジェクト概要",
+        "overviewBody": "お客様のご要望に合わせ、素材選定から縫製仕様までを最適化しました。（XXX-案件ごとの詳細文案を順次追加）",
+        "highlightsTitle": "工程ハイライト",
+        "highlights": {
+          "0": "用途に合わせた素材と裏地の選定",
+          "1": "二段検品 + X 線検針による品質保証",
+          "2": "量産前 PP サンプルでの最終すり合わせ"
+        },
+        "metaTitle": "案件情報",
+        "metaCategory": "品類",
+        "metaQuantity": "数量",
+        "metaFactory": "生産拠点",
+        "metaDuration": "製作期間",
+        "galleryTitle": "ギャラリー",
+        "relatedTitle": "関連事例",
+        "cta": "似たプロジェクトのご相談はこちら"
+      }
+    },
+    "factory": {
+      "breadcrumb": "工場と設備",
+      "intro": "二つの国、三つの拠点。打样・小批量・大量生産を、最適な拠点で使い分けます。",
+      "items": {
+        "qingdao": { "name": "青島打样中心", "subtitle": "開発・打样・改版・核価の拠点。最短 1 週間で初サンプル。" },
+        "shandong": { "name": "山東工場", "subtitle": "打样・急單・多品種に強い国内拠点" },
+        "myanmar": { "name": "緬甸工場（Better Bags Myanmar）", "subtitle": "大ロット長単と日本品質を両立する海外拠点" }
+      },
+      "metrics": {
+        "area": "面積",
+        "staff": "縫製スタッフ",
+        "flatMachine": "平車",
+        "computerMachine": "電脳車",
+        "xrayMachine": "X 線検針機",
+        "sampleWeeks": "週間で初サンプル",
+        "coreServices": "コア業務"
+      }
+    },
+    "contact": {
+      "breadcrumb": "お問い合わせ",
+      "intro": "ご相談内容に合わせて、最適な窓口をお選びください。",
+      "phoneNote": "お電話でのご相談：XXX-公開電話（平日 9:00-18:00 JST）",
+      "open": "申し込む",
+      "entries": {
+        "inquiry": { "title": "お問い合わせ・詢盘", "desc": "ご要件をお聞かせください。24 時間以内に日本語でご返信します。" },
+        "catalog": { "title": "カタログ DL", "desc": "工場・設備・実績をまとめた最新版カタログ（PDF）。" },
+        "visit": { "title": "工場見学申込", "desc": "青島・山東・緬甸、いずれの拠点もご見学いただけます。" },
+        "sample": { "title": "サンプル依頼", "desc": "デザイン稿・参考品をお送りいただければ試作いたします。" }
+      }
+    }
+  },
+  "footer": {
+    "company": "COMPANY",
+    "services": "SERVICES",
+    "products": "PRODUCTS",
+    "resources": "RESOURCES",
+    "social": "SOCIAL",
+    "companyProfile": "会社概要",
+    "message": "代表挨拶",
+    "history": "沿革",
+    "careers": "採用情報",
+    "oemFlow": "OEM の流れ",
+    "quality": "品質と検品",
+    "factory": "工場と設備",
+    "leadTime": "納期管理",
+    "backpack": "リュック",
+    "tote": "トート",
+    "business": "ビジネス",
+    "student": "学生用",
+    "catalog": "カタログ DL",
+    "contact": "お問い合わせ",
+    "visit": "工場見学",
+    "newsletter": "ニュースレター",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "wechat": "WeChat",
+    "addressesTitle": "拠点",
+    "qingdaoLabel": "青島本社",
+    "qingdaoAddress": "中国山東省青島市 XXX",
+    "shandongLabel": "山東工場",
+    "shandongAddress": "中国山東省日照市莒県洛河鎮",
+    "myanmarLabel": "緬甸工場",
+    "myanmarAddress": "Yangon NGWE PIN LAI（Better Bags Myanmar）",
+    "copyright": "© {year} 青島万翔輝 All Rights Reserved."
+  },
+  "noticeBar": {
+    "dismiss": "閉じる"
+  },
+  "localeSuggestion": {
+    "ja": "日本語でご覧になりたい場合はこちら",
+    "en": "View this site in English",
+    "zh": "查看本站中文版"
+  },
+  "floatingContact": {
+    "label": "相談",
+    "email": "メールでお問い合わせ",
+    "phone": "電話で相談",
+    "close": "閉じる"
+  },
+  "common": {
+    "loading": "読み込み中…",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "language": "言語を切り替える"
+  }
+}

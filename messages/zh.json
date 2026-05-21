@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "siteName": "青岛万翔辉",
+    "siteTagline": "始终立足现场。",
+    "siteSubTagline": "中国与缅甸双引擎，做日本品质的箱包。"
+  },
+  "nav": {
+    "strength": "核心优势",
+    "oemFlow": "OEM 流程",
+    "factory": "工厂与设备",
+    "works": "制作案例",
+    "about": "公司介绍",
+    "news": "动态",
+    "contact": "联系我们",
+    "catalog": "下载目录",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "sitemap": "网站地图",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "BAG OEM/ODM FACTORY",
+      "headline": "始终立足现场。",
+      "subheadline": "2003 年创立，深耕日本市场 20 余年的箱包 OEM/ODM 工厂。中国山东 + 缅甸仰光双工厂，承接背包、托特、商务包从小批量打样到大货量产。",
+      "primaryCta": "联系我们",
+      "secondaryCta": "下载产品目录",
+      "imageAlt": "工厂车间箱包制造现场"
+    },
+    "stats": {
+      "eyebrow": "OUR NUMBERS",
+      "title": "数字看万翔辉",
+      "years": "20+ 年",
+      "yearsLabel": "深耕日本市场",
+      "factories": "2 工厂",
+      "factoriesLabel": "山东 + 仰光",
+      "staff": "约 470 人",
+      "staffLabel": "缝制团队",
+      "leadTime": "3 个月",
+      "leadTimeLabel": "标准大货交期"
+    },
+    "strengths": {
+      "eyebrow": "OUR STRENGTHS",
+      "title": "五大核心优势",
+      "subtitle": "20 年驻守现场，给客户的五个答案。",
+      "viewMore": "了解详情",
+      "items": {
+        "dualFactory": {
+          "title": "中国 + 缅甸双工厂",
+          "desc": "中国山东承接打样 / 急单 / 多款，缅甸仰光承接大货长单。同一家公司，两套打法。"
+        },
+        "sampling": {
+          "title": "青岛打样中心，最短 1 周首样",
+          "desc": "排期与制作分开透明化。设计方向确定后，1-2 次合理修改完成首样确认。"
+        },
+        "quality": {
+          "title": "日本标准二段品质管理",
+          "desc": "工艺单 + 用量表 + 首件确认标准流程。X 线检针机中缅双工厂均配备，支持第三方验厂。"
+        },
+        "experience": {
+          "title": "2003 年起，专注日本市场",
+          "desc": "20 余年深耕日本市场，从商社、上市品牌到独立 EC 都有合作经验。"
+        },
+        "commercial": {
+          "title": "商务条款灵活",
+          "desc": "FOB / CIF 均可。新客 T/T 30% + 70%，长期合作 1 周内结算，大额支持 L/C。"
+        }
+      }
+    },
+    "painPoints": {
+      "eyebrow": "FAQ FOR PROCUREMENT",
+      "title": "采购方的 5 个常见烦恼",
+      "subtitle": "「中国工厂常有的问题」，我们这样解决。",
+      "problemLabel": "烦恼",
+      "solutionLabel": "我们的答案",
+      "items": {
+        "language": {
+          "problem": "和中国工厂沟通不畅、进度看不见。",
+          "solution": "会日语的项目负责人全程对接，每周固定汇报进度。"
+        },
+        "rush": {
+          "problem": "急单没工厂愿意接。",
+          "solution": "国内工厂最短 30 天交货，紧急订单直接走青岛打样中心。"
+        },
+        "smallLot": {
+          "problem": "小批量没人愿意做。",
+          "solution": "国内工厂数百件起、缅甸单款单色 1500 件起，欢迎从试单开始。"
+        },
+        "pricing": {
+          "problem": "报价不透明、内部不好解释。",
+          "solution": "按 MOQ / 面料 / 工序拆分报价，给您一份能拿去汇报的清单。"
+        },
+        "transparency": {
+          "problem": "看不到工厂，不知道是谁在做。",
+          "solution": "青岛 / 山东 / 缅甸三个工厂均可参观。出差不便时支持 1 天 Zoom 视察。"
+        }
+      }
+    },
+    "works": {
+      "eyebrow": "SELECTED WORKS",
+      "title": "制作案例",
+      "subtitle": "近年面向日本市场的脱敏案例，按品类 / 规模 / 工厂分类。",
+      "viewMore": "查看全部案例",
+      "items": {
+        "case01": { "title": "日本上市 EC 品牌 / 通勤背包" },
+        "case02": { "title": "户外品牌 / 托特包" },
+        "case03": { "title": "进口贸易商 / 商务包" },
+        "case04": { "title": "私立学校 / 学生书包" },
+        "case05": { "title": "户外精选店 / 运动背包" },
+        "case06": { "title": "可持续电商 / 再生面料托特" },
+        "case07": { "title": "礼品贸易商 / 30 天急单背包" },
+        "case08": { "title": "新锐品牌 / 样品试做" },
+        "case09": { "title": "旅行用品电商 / 旅行背包" },
+        "case10": { "title": "百货自有品牌 / 高端托特" },
+        "case11": { "title": "铁路系企业 / 通勤商务包" },
+        "case12": { "title": "幼教机构 / 入园背包" }
+      },
+      "tags": {
+        "qty": "{n} 件",
+        "qtySample": "样品",
+        "days": "{n} 天",
+        "qingdao": "青岛",
+        "shandong": "山东",
+        "myanmar": "缅甸"
+      },
+      "category": {
+        "backpack": "背包",
+        "tote": "托特",
+        "business": "商务",
+        "student": "学生",
+        "other": "其他"
+      }
+    },
+    "oemFlow": {
+      "eyebrow": "OEM PROCESS",
+      "title": "OEM 流程",
+      "subtitle": "从咨询到出货，每一步都有名字、有时间表、可追踪。",
+      "items": {
+        "inquiry": { "name": "咨询", "duration": "当日～1 工作日" },
+        "hearing": { "name": "需求确认", "duration": "1-3 工作日" },
+        "quote": { "name": "报价", "duration": "3-5 工作日" },
+        "sampling": { "name": "打样", "duration": "排期 + 1 周" },
+        "ppSample": { "name": "PP 样确认", "duration": "1-2 周" },
+        "production": { "name": "量产", "duration": "PP 确认后 3 个月" },
+        "shipping": { "name": "出货 / 跟进", "duration": "出货后 1 周内" }
+      },
+      "viewMore": "查看完整流程"
+    },
+    "factory": {
+      "eyebrow": "FACTORIES",
+      "title": "工厂与设备",
+      "subtitle": "中国山东 + 缅甸仰光，两座性格不同的自营工厂。",
+      "items": {
+        "shandong": {
+          "name": "山东工厂",
+          "subtitle": "打样 / 急单 / 多款的国内据点"
+        },
+        "myanmar": {
+          "name": "缅甸工厂 (Better Bags Myanmar)",
+          "subtitle": "大货长单 + 日本品质并行的海外据点"
+        }
+      },
+      "metrics": {
+        "area": "厂房面积",
+        "staff": "缝制人员",
+        "flatMachine": "平车",
+        "computerMachine": "电脑车",
+        "xrayMachine": "X 线检针机"
+      },
+      "viewMore": "查看工厂详情"
+    },
+    "trust": {
+      "eyebrow": "TRUSTED BY",
+      "title": "20 年信赖",
+      "subtitle": "在媒体、在客户结构、在认证里，都能看到 20 年的积累。",
+      "mediaTitle": "媒体报道",
+      "customerTitle": "主要客户类型",
+      "certTitle": "认证资质",
+      "customers": {
+        "ec": "日本上市 EC 品牌",
+        "shosha": "综合商社",
+        "select": "精选店",
+        "indie": "独立品牌"
+      },
+      "cert": {
+        "iso9001": "ISO 9001",
+        "bsci": "BSCI",
+        "sedex": "SEDEX"
+      }
+    },
+    "cta": {
+      "eyebrow": "NEXT STEP",
+      "title": "先聊聊也行。",
+      "subtitle": "即使在考量阶段，也欢迎来沟通。日语项目负责人会亲自回复。",
+      "items": {
+        "inquiry": {
+          "title": "在线询盘",
+          "desc": "把您的需求告诉我们，24 小时内回复。",
+          "cta": "发送询盘"
+        },
+        "catalog": {
+          "title": "产品目录",
+          "desc": "工厂 / 设备 / 近期案例，一份 PDF。",
+          "cta": "下载目录"
+        },
+        "visit": {
+          "title": "工厂参观",
+          "desc": "青岛 / 山东 / 缅甸任选其一。",
+          "cta": "申请参观"
+        }
+      }
+    }
+  },
+  "inquiry": {
+    "eyebrow": "CONTACT",
+    "title": "联系我们",
+    "subtitle": "即使在考量阶段也欢迎沟通，日语项目负责人会在 24 小时内回复。",
+    "breadcrumbHome": "首页",
+    "breadcrumbContact": "联系我们",
+    "fields": {
+      "companyName": "贵公司名称",
+      "companyNamePlaceholder": "示例株式会社",
+      "contactName": "联系人姓名",
+      "contactNamePlaceholder": "山田太郎",
+      "email": "电子邮箱",
+      "emailPlaceholder": "taro@example.com",
+      "phone": "电话",
+      "phonePlaceholder": "+81-3-1234-5678",
+      "language": "希望沟通语言",
+      "productCategory": "产品品类",
+      "quantity": "预计数量",
+      "quantityPlaceholder": "例：1,500 件",
+      "desiredLeadTime": "期望交期",
+      "desiredLeadTimePlaceholder": "例：3 个月内",
+      "quoteTerms": "报价条件",
+      "message": "咨询内容",
+      "messagePlaceholder": "请填写咨询内容（500 字以内）",
+      "attachments": "参考图 / 设计稿",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・单个最大 10MB・最多 5 个文件",
+      "privacyAgree": "我同意隐私政策"
+    },
+    "language": {
+      "ja": "日本語",
+      "zh": "中文",
+      "en": "English"
+    },
+    "category": {
+      "backpack": "背包",
+      "tote": "托特",
+      "business": "商务",
+      "student": "学生",
+      "other": "其他"
+    },
+    "quoteTerms": {
+      "fob": "FOB",
+      "cif": "CIF",
+      "undecided": "未定 / 待沟通"
+    },
+    "errors": {
+      "required": "此项为必填",
+      "tooLong": "超过字数上限",
+      "invalidEmail": "请输入正确的邮箱地址",
+      "selectAtLeastOne": "请至少选择一项",
+      "mustAgree": "需要同意",
+      "fileTooLarge": "单个文件不超过 10MB",
+      "invalidFileType": "不支持的文件格式",
+      "tooManyFiles": "最多 5 个文件",
+      "submitFailed": "提交失败，请稍后再试。"
+    },
+    "submit": "提交",
+    "submitting": "提交中…",
+    "thanks": {
+      "title": "感谢您的咨询",
+      "body": "我们会确认内容后，在 24 小时内由日语负责人回复您。",
+      "backHome": "返回首页"
+    }
+  },
+  "catalog": {
+    "eyebrow": "CATALOG",
+    "title": "下载产品目录",
+    "subtitle": "我们将发送汇总工厂 / 设备 / 案例的最新目录（PDF）。",
+    "breadcrumbHome": "首页",
+    "breadcrumb": "下载目录",
+    "fields": {
+      "companyName": "贵公司名称",
+      "contactName": "联系人姓名",
+      "email": "电子邮箱",
+      "industry": "业种"
+    },
+    "industry": {
+      "ec": "电商 / 网购",
+      "shosha": "商社 / 批发",
+      "select": "精选店",
+      "brand": "品牌 / 制造商",
+      "other": "其他"
+    }
+  },
+  "visit": {
+    "eyebrow": "FACTORY TOUR",
+    "title": "工厂参观申请",
+    "subtitle": "青岛 / 山东 / 缅甸据点均可参观。",
+    "breadcrumbHome": "首页",
+    "breadcrumb": "工厂参观申请",
+    "fields": {
+      "companyName": "贵公司名称",
+      "contactName": "联系人姓名",
+      "email": "电子邮箱",
+      "sites": "希望参观据点",
+      "preferredDate": "希望日期（候补）",
+      "preferredDatePlaceholder": "例：2026 年 7 月上旬，第二志愿 7 月下旬",
+      "companions": "随行人数",
+      "companionsPlaceholder": "例：2 人",
+      "translation": "翻译需求",
+      "airportPickup": "需要机场接送",
+      "message": "需求 / 自由填写",
+      "messagePlaceholder": "请填写问题或需求（500 字以内）"
+    },
+    "sites": {
+      "qingdao": "青岛打样中心",
+      "shandong": "山东日照工厂",
+      "myanmar": "缅甸仰光工厂"
+    },
+    "translationOption": {
+      "none": "不需要",
+      "ja": "日语",
+      "en": "英语",
+      "zh": "中文"
+    },
+    "visaNote": "※ 参观缅甸据点需办理签证，请提前 1-2 周申请。"
+  },
+  "sample": {
+    "eyebrow": "SAMPLE",
+    "title": "样品委托",
+    "subtitle": "提供设计稿或参考品，我们可以为您试做。",
+    "breadcrumbHome": "首页",
+    "breadcrumb": "样品委托",
+    "fields": {
+      "companyName": "贵公司名称",
+      "contactName": "联系人姓名",
+      "email": "电子邮箱",
+      "productCategory": "希望产品品类",
+      "quantity": "希望数量",
+      "quantityPlaceholder": "例：1-3 个",
+      "shippingAddress": "配送地址",
+      "shippingAddressPlaceholder": "请填写日本国内配送地址",
+      "attachments": "设计稿 / 参考品图片",
+      "attachmentsHelp": "PDF / JPG / PNG / AI / PSD・单个最大 10MB・最多 5 个文件"
+    }
+  },
+  "pages": {
+    "news": {
+      "breadcrumb": "动态",
+      "title": "动态・专栏",
+      "intro": "工厂最新动态与专栏文章。",
+      "body": "内容准备中，动态与专栏将陆续公开。（XXX-公告与专栏内容待补充）"
+    },
+    "quality": {
+      "breadcrumb": "品质与检验",
+      "title": "品质与检验体制",
+      "intro": "日本标准二段检品 + X 线检针保证品质。",
+      "body": "中缅双工厂均配备 X 线检针机。工艺单 + 用量表 + 首件确认标准流程，配合二段检品实现日本品质，支持第三方验厂。（XXX-详细数据待补充）"
+    },
+    "leadTime": {
+      "breadcrumb": "交期管理",
+      "title": "交期与供给管理",
+      "intro": "明确各工序交期，实现稳定供给。",
+      "body": "国内据点最短 30 天，缅甸大货 PP 确认后约 3 个月。物流走东莞沙田仓 → 仰光港路线。（XXX-详细待补充）"
+    },
+    "careers": {
+      "breadcrumb": "招聘",
+      "title": "招聘信息",
+      "intro": "（准备中）",
+      "body": "招聘信息准备中。（XXX-第二期公开）"
+    },
+    "privacy": {
+      "breadcrumb": "隐私政策",
+      "title": "隐私政策",
+      "intro": "关于个人信息的处理",
+      "body": "本站依据日本个人信息保护法（APPI）妥善管理通过咨询等获取的个人信息。（XXX-法务顾问终稿待定）"
+    },
+    "terms": {
+      "breadcrumb": "使用条款",
+      "title": "使用条款",
+      "intro": "本站使用条件",
+      "body": "本站使用相关条款。（XXX-法务顾问终稿待定）"
+    },
+    "sitemap": {
+      "breadcrumb": "网站地图",
+      "title": "网站地图",
+      "intro": "本站主要页面一览。"
+    },
+    "strength": {
+      "breadcrumb": "核心优势",
+      "intro": "选择箱包 OEM 工厂，不只看价格和交期。沟通是否顺畅、能否应对临时变更、20 年扎在同一个地方的安心感——这些看不见的部分，才是客户长期合作的理由。"
+    },
+    "oemFlow": {
+      "breadcrumb": "OEM 流程",
+      "intro": "从咨询到出货，每一步的周期与产出都清晰可见。",
+      "faqTitle": "常见问题",
+      "faq": {
+        "inquiry": {
+          "q": "咨询时需要准备什么？",
+          "a": "只需大致的品类、数量、期望交期。有设计稿可一并附上。"
+        },
+        "sampling": {
+          "q": "打样可以改几次？",
+          "a": "通常对应 1-2 次合理修改。"
+        },
+        "production": {
+          "q": "量产标准交期？",
+          "a": "PP 样确认后约 3 个月（缅甸大货）。"
+        }
+      }
+    },
+    "about": {
+      "breadcrumb": "公司介绍",
+      "intro": "自 2003 年创立以来，我们专注日本市场的箱包 OEM/ODM。",
+      "profileTitle": "公司概况",
+      "historyTitle": "发展历程",
+      "messageTitle": "代表致辞",
+      "profile": {
+        "companyName": { "label": "公司名", "value": "青岛万翔辉（XXX-注册名确认中）" },
+        "founded": { "label": "创立", "value": "2003 年" },
+        "representative": { "label": "代表人", "value": "XXX-代表人姓名" },
+        "locations": {
+          "label": "所在地",
+          "value": "青岛本部 / 山东日照工厂 / 缅甸仰光工厂（Better Bags Myanmar）"
+        },
+        "staff": { "label": "员工数", "value": "约 470 人（中国 + 缅甸）" },
+        "business": {
+          "label": "主营业务",
+          "value": "背包 / 托特 / 商务包等 OEM/ODM 制造"
+        },
+        "certifications": { "label": "认证资质", "value": "XXX-BSCI / SEDEX / ISO 等确认中" }
+      },
+      "history": {
+        "founded": "青岛万翔辉 成立",
+        "firstClient": "首个日本客户合作",
+        "milestone2010": "XXX-业务扩展节点",
+        "myanmarStart": "缅甸仰光工厂（Better Bags Myanmar）投产",
+        "qingdaoExpand": "青岛打样中心扩建",
+        "siteRenewal": "官网改版上线"
+      },
+      "message": {
+        "body": "20 年来，我们始终看重「立足现场」——想象图纸背后使用者的日常，一针一线认真做。与日本客户走过的这条路，我们会继续诚实地走下去。（XXX-代表致辞终稿待定）",
+        "signature": "代表董事　XXX-代表人姓名"
+      }
+    },
+    "works": {
+      "breadcrumb": "制作案例",
+      "intro": "从近年面向日本市场的实际案例中，按品类 / 规模 / 据点抽选。客户信息在保密范围内匿名化。",
+      "filterAll": "全部",
+      "detail": {
+        "overviewTitle": "项目概要",
+        "overviewBody": "根据客户需求，从面料选型到缝制规格逐项优化。（XXX-逐案例详情陆续补充）",
+        "highlightsTitle": "工艺亮点",
+        "highlights": {
+          "0": "按用途选型面料与里布",
+          "1": "二段检品 + X 线检针保证品质",
+          "2": "量产前 PP 样最终确认"
+        },
+        "metaTitle": "案件信息",
+        "metaCategory": "品类",
+        "metaQuantity": "数量",
+        "metaFactory": "生产据点",
+        "metaDuration": "制作周期",
+        "galleryTitle": "图集",
+        "relatedTitle": "相关案例",
+        "cta": "类似项目咨询请点这里"
+      }
+    },
+    "factory": {
+      "breadcrumb": "工厂与设备",
+      "intro": "两个国家，三个据点。打样、小批量、大货，各用最合适的据点。",
+      "items": {
+        "qingdao": { "name": "青岛打样中心", "subtitle": "开发 / 打样 / 改版 / 核价据点。最短 1 周首样。" },
+        "shandong": { "name": "山东工厂", "subtitle": "打样 / 急单 / 多款的国内据点" },
+        "myanmar": { "name": "缅甸工厂（Better Bags Myanmar）", "subtitle": "大货长单 + 日本品质并行的海外据点" }
+      },
+      "metrics": {
+        "area": "面积",
+        "staff": "缝制人员",
+        "flatMachine": "平车",
+        "computerMachine": "电脑车",
+        "xrayMachine": "X 线检针机",
+        "sampleWeeks": "周出首样",
+        "coreServices": "核心业务"
+      }
+    },
+    "contact": {
+      "breadcrumb": "联系我们",
+      "intro": "请根据您的需求选择最合适的入口。",
+      "phoneNote": "电话咨询：XXX-公开电话（工作日 9:00-18:00 JST）",
+      "open": "前往",
+      "entries": {
+        "inquiry": { "title": "在线询盘", "desc": "把您的需求告诉我们，24 小时内回复。" },
+        "catalog": { "title": "下载目录", "desc": "工厂 / 设备 / 案例汇总的最新目录（PDF）。" },
+        "visit": { "title": "工厂参观", "desc": "青岛 / 山东 / 缅甸据点均可参观。" },
+        "sample": { "title": "样品委托", "desc": "提供设计稿或参考品，我们可以为您试做。" }
+      }
+    }
+  },
+  "footer": {
+    "company": "COMPANY",
+    "services": "SERVICES",
+    "products": "PRODUCTS",
+    "resources": "RESOURCES",
+    "social": "SOCIAL",
+    "companyProfile": "公司概况",
+    "message": "代表致辞",
+    "history": "发展历程",
+    "careers": "招聘",
+    "oemFlow": "OEM 流程",
+    "quality": "品质与检验",
+    "factory": "工厂与设备",
+    "leadTime": "交期管理",
+    "backpack": "背包",
+    "tote": "托特",
+    "business": "商务包",
+    "student": "学生包",
+    "catalog": "下载目录",
+    "contact": "联系我们",
+    "visit": "工厂参观",
+    "newsletter": "邮件订阅",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "wechat": "微信",
+    "addressesTitle": "据点",
+    "qingdaoLabel": "青岛本部",
+    "qingdaoAddress": "中国山东省青岛市 XXX",
+    "shandongLabel": "山东工厂",
+    "shandongAddress": "中国山东省日照市莒县洛河镇",
+    "myanmarLabel": "缅甸工厂",
+    "myanmarAddress": "Yangon NGWE PIN LAI（Better Bags Myanmar）",
+    "copyright": "© {year} 青岛万翔辉 版权所有。"
+  },
+  "noticeBar": {
+    "dismiss": "关闭"
+  },
+  "localeSuggestion": {
+    "ja": "日本語でご覧になりたい場合はこちら",
+    "en": "View this site in English",
+    "zh": "查看本站中文版"
+  },
+  "floatingContact": {
+    "label": "咨询",
+    "email": "邮件咨询",
+    "phone": "电话咨询",
+    "close": "关闭"
+  },
+  "common": {
+    "loading": "加载中…",
+    "submit": "提交",
+    "cancel": "取消",
+    "language": "切换语言"
+  }
+}
