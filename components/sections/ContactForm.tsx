@@ -5,6 +5,7 @@ import { useForm, Controller } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '@/lib/i18n/routing'
+import { trackEvent } from '@/lib/analytics/events'
 import {
   InquirySchema,
   INQUIRY_DEFAULTS,
@@ -76,6 +77,7 @@ export function ContactForm() {
         setSubmitError(t('errors.submitFailed'))
         return
       }
+      trackEvent('form_submit', { form: 'inquiry' })
       router.push('/contact/inquiry/thanks')
     } catch {
       setSubmitError(t('errors.submitFailed'))

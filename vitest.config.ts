@@ -35,7 +35,12 @@ export default defineConfig({
         'tests/setup.ts',
         'tests/e2e/**',
         '**/*.d.ts',
-        'app/**/layout.tsx'
+        // 服务端渲染入口：靠 build + E2E + 浏览器验证，不计入单测覆盖门槛
+        // （与 M6/M7「server component 不强写渲染测试」一致）
+        'app/**/layout.tsx',
+        'app/**/page.tsx',
+        'app/robots.ts',
+        'app/api/og/route.tsx'
       ]
     }
   },

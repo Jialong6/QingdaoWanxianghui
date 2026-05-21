@@ -13,7 +13,9 @@ export default defineConfig({
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'mobile-safari', use: { ...devices['iPhone 13'] } }
+    // 移动端视口回归。用 chromium 引擎的移动设备（Pixel 5），
+    // 避免 WebKit 在部分本地/CI 环境不可用；如需真 Safari 引擎可改回 iPhone 设备。
+    { name: 'mobile-chrome', use: { ...devices['Pixel 5'] } }
   ],
   webServer: {
     // 用 build + start（避开被 hook 拦截的 dev server）

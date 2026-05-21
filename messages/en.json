@@ -543,6 +543,13 @@
     "en": "View this site in English",
     "zh": "查看本站中文版"
   },
+  "consent": {
+    "label": "Cookie consent banner",
+    "message": "We use cookies for analytics. Please click \"Accept\" if you agree.",
+    "accept": "Accept",
+    "reject": "Decline",
+    "privacyLink": "Privacy Policy"
+  },
   "floatingContact": {
     "label": "Contact",
     "email": "Email us",

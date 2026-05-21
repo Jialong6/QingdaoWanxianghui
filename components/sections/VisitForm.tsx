@@ -5,6 +5,7 @@ import { useForm, Controller } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '@/lib/i18n/routing'
+import { trackEvent } from '@/lib/analytics/events'
 import {
   VisitSchema,
   VISIT_DEFAULTS,
@@ -46,6 +47,7 @@ export function VisitForm() {
         setSubmitError(tc('errors.submitFailed'))
         return
       }
+      trackEvent('form_submit', { form: 'visit' })
       router.push('/contact/thanks')
     } catch {
       setSubmitError(tc('errors.submitFailed'))

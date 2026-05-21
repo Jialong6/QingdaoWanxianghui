@@ -4,6 +4,13 @@ import { test, expect } from '@playwright/test'
  * 询盘转化路径 E2E（plan.md §9 路径 L3）
  * Hero → 询盘表 → 提交 → 成功页
  */
+test.beforeEach(async ({ page }) => {
+  // 预置 consent=denied，避免底部同意横幅遮挡移动端的提交按钮
+  await page.addInitScript(() => {
+    window.localStorage.setItem('consent:analytics', 'denied')
+  })
+})
+
 test.describe('询盘流程（ja）', () => {
   test('Hero CTA 跳转到询盘表', async ({ page }) => {
     await page.goto('/ja')

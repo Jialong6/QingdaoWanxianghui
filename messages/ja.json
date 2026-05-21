@@ -543,6 +543,13 @@
     "en": "View this site in English",
     "zh": "查看本站中文版"
   },
+  "consent": {
+    "label": "Cookie 同意バナー",
+    "message": "当サイトはアクセス解析のために Cookie を使用します。同意いただける場合は「同意する」を押してください。",
+    "accept": "同意する",
+    "reject": "拒否する",
+    "privacyLink": "プライバシーポリシー"
+  },
   "floatingContact": {
     "label": "相談",
     "email": "メールでお問い合わせ",

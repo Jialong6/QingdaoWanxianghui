@@ -84,8 +84,46 @@ npm start
 
 ## 当前进度
 
-| Milestone | 状态 |
-| --- | --- |
-| M0 项目脚手架 | 进行中 |
-| M1 Design Tokens & 基础设施 | 启动 |
-| M2-M8 | 见 [开发路线图](/Users/lijialong/.claude/plans/claude-md-temporal-cosmos.md) |
+Phase 1 MVP 已完成（M0–M8）。
+
+| Milestone | 内容 | 状态 |
+| --- | --- | --- |
+| M0 | 项目脚手架 | ✅ |
+| M1 | Design Tokens & 基础设施 | ✅ |
+| M2 | 基础 UI 组件库（12） | ✅ |
+| M3 | Layout（Navbar/Footer/全局壳） | ✅ |
+| M4 | 首页 9 屏 | ✅ |
+| M5 / M5.5 | 询盘表单 + 文件上传 + E2E | ✅ |
+| M6 / M6.5 | 内容展示页 + 三表单子页 | ✅ |
+| M7 / M7.5 | SEO 核心 + 占位页 + IP 地理 + 动态 OG | ✅ |
+| M8 | MVP 软上线准备（分析 / E2E / CI / 部署） | ✅ |
+
+> 详细路线图见 [开发路线图](/Users/lijialong/.claude/plans/claude-md-temporal-cosmos.md)。
+
+---
+
+## 上线 checklist（软上线前）
+
+**环境变量（部署平台配置，参考 `.env.example`）**
+- [ ] `NEXT_PUBLIC_SITE_URL` = 真实主域名（影响 canonical / sitemap / OG）
+- [ ] `RESEND_API_KEY` + `INQUIRY_NOTIFY_EMAIL`（不配则邮件降级为日志）
+- [ ] `RECAPTCHA_SECRET_KEY` + `NEXT_PUBLIC_RECAPTCHA_SITE_KEY`（不配则跳过校验）
+- [ ] `NEXT_PUBLIC_GA_ID` / `NEXT_PUBLIC_GTM_ID`（不配则不加载；配后仍需访客同意）
+
+**质量门（CI 已自动跑：`.github/workflows/ci.yml`）**
+- [ ] `npm run lint` / `npm run type-check` 0 错
+- [ ] `npm test`（覆盖率 ≥ 80%）
+- [ ] `npm run build` 通过
+- [ ] `npm run test:e2e`（本地，需 `npx playwright install chromium`）
+
+**合规与隐私**
+- [ ] 同意横幅文案 native 校对 + 法务确认（APPI 表述）— 当前文案标 TODO
+- [ ] `/privacy`、`/terms` 律师审稿（XXX）
+
+**性能（待客户实拍图）**
+- [ ] 替换 placeholder 实拍图后，移除 `next.config.mjs` 的 `images.unoptimized`
+- [ ] Lighthouse 移动端 ≥ 90 / Core Web Vitals 三项全绿
+
+**部署**
+- [ ] Vercel 项目绑定域名（`vercel.json` 已设东京节点 `hnd1`）
+- [ ] HTTPS + 安全头（`next.config.mjs` `headers()` 已配 HSTS 等）

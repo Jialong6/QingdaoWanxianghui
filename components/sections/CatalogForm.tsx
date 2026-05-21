@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '@/lib/i18n/routing'
+import { trackEvent } from '@/lib/analytics/events'
 import {
   CatalogSchema,
   CATALOG_DEFAULTS,
@@ -44,6 +45,7 @@ export function CatalogForm() {
         setSubmitError(tc('errors.submitFailed'))
         return
       }
+      trackEvent('form_submit', { form: 'catalog' })
       router.push('/contact/thanks')
     } catch {
       setSubmitError(tc('errors.submitFailed'))

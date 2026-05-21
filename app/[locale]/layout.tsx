@@ -7,6 +7,7 @@ import { routing } from '@/lib/i18n/routing'
 import { isLocale, LOCALE_HTML_LANG, type Locale } from '@/lib/i18n/config'
 import { buildBaseMetadata } from '@/lib/metadata'
 import { Navbar, Footer, FloatingContact, LocaleSuggestionBanner } from '@/components/layout'
+import { ConsentProvider, ConsentBanner, Analytics } from '@/components/analytics'
 import '../globals.css'
 
 type Params = { locale: string }
@@ -46,17 +47,21 @@ export default async function LocaleLayout({
     <html lang={htmlLang}>
       <body lang={htmlLang}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <a
-            href="#main"
-            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-toast focus:rounded focus:bg-primary-500 focus:px-4 focus:py-2 focus:text-neutral-0"
-          >
-            Skip to main content
-          </a>
-          <LocaleSuggestionBanner />
-          <Navbar />
-          <main id="main">{children}</main>
-          <Footer />
-          <FloatingContact email={inquiryEmail} />
+          <ConsentProvider>
+            <a
+              href="#main"
+              className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-toast focus:rounded focus:bg-primary-500 focus:px-4 focus:py-2 focus:text-neutral-0"
+            >
+              Skip to main content
+            </a>
+            <LocaleSuggestionBanner />
+            <Navbar />
+            <main id="main">{children}</main>
+            <Footer />
+            <FloatingContact email={inquiryEmail} />
+            <ConsentBanner />
+            <Analytics />
+          </ConsentProvider>
         </NextIntlClientProvider>
       </body>
     </html>

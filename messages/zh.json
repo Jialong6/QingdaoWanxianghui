@@ -543,6 +543,13 @@
     "en": "View this site in English",
     "zh": "查看本站中文版"
   },
+  "consent": {
+    "label": "Cookie 同意横幅",
+    "message": "本网站使用 Cookie 进行访问分析。如您同意，请点击「同意」。",
+    "accept": "同意",
+    "reject": "拒绝",
+    "privacyLink": "隐私政策"
+  },
   "floatingContact": {
     "label": "咨询",
     "email": "邮件咨询",

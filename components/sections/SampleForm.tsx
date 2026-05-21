@@ -5,6 +5,7 @@ import { useForm, Controller } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '@/lib/i18n/routing'
+import { trackEvent } from '@/lib/analytics/events'
 import { SampleSchema, SAMPLE_DEFAULTS, type SampleInput } from '@/lib/validations/sample'
 import { PRODUCT_CATEGORIES } from '@/lib/validations/inquiry'
 import { FormField, Input, Checkbox, CheckboxGroup, FileUpload } from '@/components/ui/form'
@@ -57,6 +58,7 @@ export function SampleForm() {
         setSubmitError(tc('errors.submitFailed'))
         return
       }
+      trackEvent('form_submit', { form: 'sample' })
       router.push('/contact/thanks')
     } catch {
       setSubmitError(tc('errors.submitFailed'))
