@@ -103,18 +103,42 @@
       "subtitle": "Anonymised samples of recent Japan-market projects, organised by category, scale and facility.",
       "viewMore": "See all works",
       "items": {
-        "case01": { "title": "Listed Japanese EC brand / commuter backpack" },
-        "case02": { "title": "Outdoor brand / canvas tote" },
-        "case03": { "title": "Inbound trading partner / business bag" },
-        "case04": { "title": "Private school / student daypack" },
-        "case05": { "title": "Outdoor select shop / active backpack" },
-        "case06": { "title": "Sustainable EC / recycled-fabric tote" },
-        "case07": { "title": "Novelty trader / 30-day rush backpack" },
-        "case08": { "title": "New brand / sample build" },
-        "case09": { "title": "Travel goods EC / travel backpack" },
-        "case10": { "title": "Department store private label / premium tote" },
-        "case11": { "title": "Rail operator / commuter business bag" },
-        "case12": { "title": "Early-childhood school / kindergarten backpack" }
+        "case01": {
+          "title": "Listed Japanese EC brand / commuter backpack"
+        },
+        "case02": {
+          "title": "Outdoor brand / canvas tote"
+        },
+        "case03": {
+          "title": "Inbound trading partner / business bag"
+        },
+        "case04": {
+          "title": "Private school / student daypack"
+        },
+        "case05": {
+          "title": "Outdoor select shop / active backpack"
+        },
+        "case06": {
+          "title": "Sustainable EC / recycled-fabric tote"
+        },
+        "case07": {
+          "title": "Novelty trader / 30-day rush backpack"
+        },
+        "case08": {
+          "title": "New brand / sample build"
+        },
+        "case09": {
+          "title": "Travel goods EC / travel backpack"
+        },
+        "case10": {
+          "title": "Department store private label / premium tote"
+        },
+        "case11": {
+          "title": "Rail operator / commuter business bag"
+        },
+        "case12": {
+          "title": "Early-childhood school / kindergarten backpack"
+        }
       },
       "tags": {
         "qty": "{n} pcs",
@@ -137,13 +161,34 @@
       "title": "OEM flow",
       "subtitle": "From first inquiry to shipping — every step is named, scheduled and visible.",
       "items": {
-        "inquiry": { "name": "Inquiry", "duration": "Same day to 1 day" },
-        "hearing": { "name": "Briefing", "duration": "1–3 days" },
-        "quote": { "name": "Quote", "duration": "3–5 days" },
-        "sampling": { "name": "Sampling", "duration": "Queue + 1 week" },
-        "ppSample": { "name": "PP sample", "duration": "1–2 weeks" },
-        "production": { "name": "Production", "duration": "3 mo. after PP sign-off" },
-        "shipping": { "name": "Shipping & follow-up", "duration": "Within 1 week of ship date" }
+        "inquiry": {
+          "name": "Inquiry",
+          "duration": "Same day to 1 day"
+        },
+        "hearing": {
+          "name": "Briefing",
+          "duration": "1–3 days"
+        },
+        "quote": {
+          "name": "Quote",
+          "duration": "3–5 days"
+        },
+        "sampling": {
+          "name": "Sampling",
+          "duration": "Queue + 1 week"
+        },
+        "ppSample": {
+          "name": "PP sample",
+          "duration": "1–2 weeks"
+        },
+        "production": {
+          "name": "Production",
+          "duration": "3 mo. after PP sign-off"
+        },
+        "shipping": {
+          "name": "Shipping & follow-up",
+          "duration": "Within 1 week of ship date"
+        }
       },
       "viewMore": "See the full process"
     },
@@ -358,14 +403,85 @@
     "quality": {
       "breadcrumb": "Quality",
       "title": "Quality & Inspection",
-      "intro": "Japan-grade two-stage inspection + X-ray needle detection.",
-      "body": "X-ray needle detectors at both China and Myanmar sites. Spec sheets, BOM and first-piece sign-off plus two-stage inspection deliver Japan-grade quality. Third-party audits welcome. (XXX-details TBC)"
+      "intro": "Two-stage inspection and X-ray needle detection keep mass-production quality stable.",
+      "overview": "Both factories in Shandong (China) and Yangon (Myanmar) have dedicated QC teams and on-site inspectors. A two-stage process from in-line to pre-shipment inspection is combined with 100% X-ray detection and optional third-party audits.",
+      "stepsTitle": "Inspection flow",
+      "steps": {
+        "ipqc": {
+          "label": "In-process inspection (IPQC)",
+          "body": "Sampling on the sewing line to catch and correct defects early."
+        },
+        "oqc": {
+          "label": "Pre-shipment inspection (OQC)",
+          "body": "Appearance, dimensions, accessories and packaging are checked before packing."
+        },
+        "xray": {
+          "label": "X-ray detection (100%)",
+          "body": "Every piece is checked for broken needles and metal contamination."
+        },
+        "audit": {
+          "label": "Third-party audit (optional)",
+          "body": "We support brand/trading-company inspections and third-party audits."
+        }
+      },
+      "methodsTitle": "Quality control methods",
+      "methods": {
+        "processSheet": "Process spec sheet",
+        "materialList": "Material/usage list",
+        "firstPiece": "First-piece confirmation"
+      },
+      "xrayTitle": "X-ray machines",
+      "xrayBody": "One unit in China and two in Myanmar, with 100% detection as standard.",
+      "certTitle": "Certifications & audits",
+      "certNote": "(XXX - status and issuable scope to be confirmed)",
+      "ctaTitle": "Questions about quality?",
+      "ctaText": "Feel free to ask about inspection standards or samples.",
+      "ctaButton": "Contact us",
+      "xray": {
+        "china": "China factory",
+        "myanmar": "Myanmar factory"
+      }
     },
     "leadTime": {
       "breadcrumb": "Lead time",
-      "title": "Lead time & Supply",
-      "intro": "Clear per-step lead times and stable supply.",
-      "body": "China site ships in 30 days at the shortest; Myanmar mass production about 3 months after PP sign-off. Logistics routed via Dongguan Shatian warehouse → Yangon port. (XXX-details TBC)"
+      "title": "Lead Time & Supply",
+      "intro": "Clear per-stage timelines let you plan supply with confidence.",
+      "overview": "Myanmar bulk runs take about 3 months after PP sample approval; the domestic (Shandong) site can start shipping in as little as 30 days depending on materials.",
+      "phasesTitle": "Materials to mass production",
+      "phases": {
+        "materials": {
+          "label": "Material sourcing & domestic handling",
+          "duration": "approx. 2 weeks",
+          "body": "Supplier production and domestic logistics; shorter if stock is available."
+        },
+        "warehouse": {
+          "label": "Inspection at Dongguan warehouse",
+          "duration": "approx. 1 week",
+          "body": "Materials are consolidated and inspected; 1-2 days for in-stock items."
+        },
+        "shipping": {
+          "label": "International shipping & customs",
+          "duration": "approx. 2 weeks",
+          "body": "Dongguan loading -> vessel wait (~3 days) -> sea transit (~1 week) -> Yangon clearance (~3 days)."
+        },
+        "production": {
+          "label": "Mass production",
+          "duration": "approx. 3 months",
+          "body": "Standard run time after PP sample approval."
+        }
+      },
+      "totalNote": "About 1 month from sourcing to factory arrival; roughly 4 months including production.",
+      "rushTitle": "Domestic rush capacity",
+      "rushBody": "The Shandong factory can begin staggered shipping in as little as 30 days, materials permitting.",
+      "variablesTitle": "Factors affecting lead time",
+      "variables": {
+        "consolidation": "Consolidation wait: time to fill a container for shared shipping.",
+        "queue": "Production queue: starts per factory schedule, not immediately after materials arrive."
+      },
+      "routeNote": "Logistics route: Dongguan warehouse -> Yangon port.",
+      "ctaTitle": "Discuss lead time",
+      "ctaText": "We propose sites and plans tailored to your target dates.",
+      "ctaButton": "Contact us"
     },
     "careers": {
       "breadcrumb": "Careers",
@@ -420,19 +536,34 @@
       "historyTitle": "History",
       "messageTitle": "Message from the CEO",
       "profile": {
-        "companyName": { "label": "Company", "value": "Qingdao Wanxianghui (XXX-registered name TBC)" },
-        "founded": { "label": "Founded", "value": "2003" },
-        "representative": { "label": "Representative", "value": "XXX-name" },
+        "companyName": {
+          "label": "Company",
+          "value": "Qingdao Wanxianghui (XXX-registered name TBC)"
+        },
+        "founded": {
+          "label": "Founded",
+          "value": "2003"
+        },
+        "representative": {
+          "label": "Representative",
+          "value": "XXX-name"
+        },
         "locations": {
           "label": "Locations",
           "value": "Qingdao HQ / Shandong factory / Yangon factory (Better Bags Myanmar)"
         },
-        "staff": { "label": "Staff", "value": "≈ 470 (China + Myanmar)" },
+        "staff": {
+          "label": "Staff",
+          "value": "≈ 470 (China + Myanmar)"
+        },
         "business": {
           "label": "Business",
           "value": "OEM/ODM manufacturing of backpacks, totes, business bags, etc."
         },
-        "certifications": { "label": "Certifications", "value": "XXX-BSCI / SEDEX / ISO TBC" }
+        "certifications": {
+          "label": "Certifications",
+          "value": "XXX-BSCI / SEDEX / ISO TBC"
+        }
       },
       "history": {
         "founded": "Qingdao Wanxianghui established",
@@ -474,9 +605,18 @@
       "breadcrumb": "Factories",
       "intro": "Two countries, three sites — sampling, small batches and mass production, each at the right place.",
       "items": {
-        "qingdao": { "name": "Qingdao Sample Center", "subtitle": "Development, sampling, revision, costing. First sample in as little as 1 week." },
-        "shandong": { "name": "Shandong (China)", "subtitle": "Sampling, rush jobs and multi-SKU runs" },
-        "myanmar": { "name": "Myanmar (Better Bags Myanmar)", "subtitle": "Mass production at Japan-grade quality" }
+        "qingdao": {
+          "name": "Qingdao Sample Center",
+          "subtitle": "Development, sampling, revision, costing. First sample in as little as 1 week."
+        },
+        "shandong": {
+          "name": "Shandong (China)",
+          "subtitle": "Sampling, rush jobs and multi-SKU runs"
+        },
+        "myanmar": {
+          "name": "Myanmar (Better Bags Myanmar)",
+          "subtitle": "Mass production at Japan-grade quality"
+        }
       },
       "metrics": {
         "area": "Floor area",
@@ -494,11 +634,173 @@
       "phoneNote": "By phone: XXX-public number (weekdays 9:00-18:00 JST)",
       "open": "Open",
       "entries": {
-        "inquiry": { "title": "Contact / Inquiry", "desc": "Tell us what you have in mind. We reply within 24 hours." },
-        "catalog": { "title": "Catalog DL", "desc": "Factories, equipment and recent work — one PDF." },
-        "visit": { "title": "Factory tour", "desc": "Qingdao, Shandong or Yangon — pick any of the three." },
-        "sample": { "title": "Sample request", "desc": "Send a design or reference and we will build a sample." }
+        "inquiry": {
+          "title": "Contact / Inquiry",
+          "desc": "Tell us what you have in mind. We reply within 24 hours."
+        },
+        "catalog": {
+          "title": "Catalog DL",
+          "desc": "Factories, equipment and recent work — one PDF."
+        },
+        "visit": {
+          "title": "Factory tour",
+          "desc": "Qingdao, Shandong or Yangon — pick any of the three."
+        },
+        "sample": {
+          "title": "Sample request",
+          "desc": "Send a design or reference and we will build a sample."
+        }
       }
+    },
+    "commercial": {
+      "breadcrumb": "Terms",
+      "title": "Commercial Terms",
+      "intro": "Clear trade terms, payment and MOQ for smooth transactions.",
+      "tradeTitle": "Trade terms (Incoterms)",
+      "trade": {
+        "fobYangon": {
+          "label": "FOB Yangon (Myanmar bulk)",
+          "body": "Myanmar bulk runs are quoted FOB Yangon by default."
+        },
+        "fobQingdao": {
+          "label": "FOB Qingdao (domestic / rush)",
+          "body": "Domestic (Shandong) trial and rush orders are quoted FOB Qingdao by default."
+        },
+        "cif": {
+          "label": "CIF available",
+          "body": "CIF quotations are available on request."
+        }
+      },
+      "paymentTitle": "Payment terms",
+      "payment": {
+        "newClient": {
+          "label": "New clients",
+          "body": "T/T 30% deposit + 70% balance by default."
+        },
+        "longTerm": {
+          "label": "Long-term clients",
+          "body": "Subject to credit, T/T within one week of B/L copy / pickup."
+        },
+        "lc": {
+          "label": "L/C accepted",
+          "body": "L/C settlement is available for large or special orders."
+        }
+      },
+      "moqTitle": "Minimum order (MOQ)",
+      "moqBody": "Domestic (Shandong) handles hundreds to tens of thousands per style; Myanmar from 1,500 per style/color.",
+      "ctaTitle": "Request a quote",
+      "ctaText": "Tell us your category, quantity and preferred terms.",
+      "ctaButton": "Contact us"
+    },
+    "sampling": {
+      "breadcrumb": "Sampling",
+      "title": "Sampling",
+      "intro": "The flow from quotation to first sample, and our revision policy.",
+      "stepsTitle": "Sampling flow",
+      "steps": {
+        "quote": {
+          "label": "Quotation",
+          "meta": "anytime",
+          "body": "A rough quote from your category, quantity and spec outline."
+        },
+        "queue": {
+          "label": "Scheduling into the sample room",
+          "meta": "depends on current load",
+          "body": "After receiving your prototype/design, we slot it into the schedule."
+        },
+        "firstSample": {
+          "label": "First sample",
+          "meta": "approx. 7 days after scheduling",
+          "body": "We make and ship the first sample."
+        },
+        "revision": {
+          "label": "Revisions",
+          "meta": "usually 1-2 rounds",
+          "body": "Reasonable revisions as 2nd/3rd samples."
+        }
+      },
+      "notesTitle": "Notes",
+      "notes": {
+        "fee": "Sampling fees and conditions are advised case by case. (XXX - fee policy to be confirmed)",
+        "intent": "Inquiries aimed at mass production proceed more smoothly."
+      },
+      "ctaTitle": "Request a sample",
+      "ctaText": "Please attach design files or reference items if available.",
+      "ctaButton": "Request a sample"
+    },
+    "faq": {
+      "breadcrumb": "FAQ",
+      "title": "Frequently Asked Questions",
+      "intro": "Common questions on OEM, lead time, pricing, visits, quality and logistics.",
+      "cat": {
+        "oem": "About OEM",
+        "leadTime": "Lead time",
+        "price": "Pricing & payment",
+        "visit": "Factory visit",
+        "quality": "Quality",
+        "logistics": "Logistics"
+      },
+      "q": {
+        "oem": {
+          "moq": "What is the MOQ?",
+          "revision": "How many sample revisions?",
+          "design": "Can we consult without a design?"
+        },
+        "leadTime": {
+          "standard": "What is the standard lead time?",
+          "rush": "What about rush orders?"
+        },
+        "price": {
+          "payment": "What are the payment terms?",
+          "terms": "Which Incoterms?",
+          "currency": "Can we use L/C?"
+        },
+        "visit": {
+          "booking": "Can we visit the factory?",
+          "myanmar": "How about visiting Myanmar?",
+          "sites": "Which sites can we visit?"
+        },
+        "quality": {
+          "xray": "What is the inspection setup?",
+          "audit": "Do you support third-party audits?"
+        },
+        "logistics": {
+          "route": "What is the logistics route?",
+          "sourcing": "How is material sourcing handled?"
+        }
+      },
+      "a": {
+        "oem": {
+          "moq": "Domestic from a few hundred per style; Myanmar from 1,500 per style/color.",
+          "revision": "Usually 1-2 reasonable revision rounds.",
+          "design": "We can start from your category, use case and reference images."
+        },
+        "leadTime": {
+          "standard": "About 3 months after PP sample approval for Myanmar bulk runs.",
+          "rush": "The domestic (Shandong) site can start shipping in as little as 30 days, materials permitting."
+        },
+        "price": {
+          "payment": "New clients: T/T 30% + 70%; long-term clients per credit terms.",
+          "terms": "FOB Yangon for Myanmar bulk, FOB Qingdao domestically; CIF also available.",
+          "currency": "L/C settlement is available for large or special orders."
+        },
+        "visit": {
+          "booking": "Visits to all three sites are available by appointment.",
+          "myanmar": "Please book 1-2 weeks ahead for visa and travel arrangements.",
+          "sites": "Qingdao, Shandong (Rizhao) and Myanmar (Yangon)."
+        },
+        "quality": {
+          "xray": "100% X-ray detection is standard, with one unit in China and two in Myanmar.",
+          "audit": "We support brand/trading-company inspections and third-party audits."
+        },
+        "logistics": {
+          "route": "Materials are consolidated at the Dongguan warehouse and shipped via Yangon port.",
+          "sourcing": "Pure consignment, partial supply or full procurement - per your needs."
+        }
+      },
+      "ctaTitle": "Other questions?",
+      "ctaText": "Feel free to contact us about anything not covered here.",
+      "ctaButton": "Contact us"
     }
   },
   "footer": {
@@ -533,7 +835,10 @@
     "shandongAddress": "Luohe Town, Ju County, Rizhao, Shandong, China",
     "myanmarLabel": "Myanmar Factory",
     "myanmarAddress": "NGWE PIN LAI, Yangon (Better Bags Myanmar)",
-    "copyright": "© {year} Qingdao Wanxianghui. All rights reserved."
+    "copyright": "© {year} Qingdao Wanxianghui. All rights reserved.",
+    "commercial": "Commercial Terms",
+    "sampling": "Sampling",
+    "faq": "FAQ"
   },
   "noticeBar": {
     "dismiss": "Dismiss"

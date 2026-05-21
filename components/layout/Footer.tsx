@@ -20,8 +20,10 @@ const COMPANY_LINKS: FooterLink[] = [
 const SERVICE_LINKS: FooterLink[] = [
   { i18nKey: 'oemFlow', href: '/oem-flow' },
   { i18nKey: 'quality', href: '/quality' },
-  { i18nKey: 'factory', href: '/factory' },
-  { i18nKey: 'leadTime', href: '/lead-time' }
+  { i18nKey: 'leadTime', href: '/lead-time' },
+  { i18nKey: 'commercial', href: '/commercial' },
+  { i18nKey: 'sampling', href: '/sampling' },
+  { i18nKey: 'factory', href: '/factory' }
 ]
 
 const PRODUCT_LINKS: FooterLink[] = [
@@ -33,6 +35,7 @@ const PRODUCT_LINKS: FooterLink[] = [
 
 const RESOURCE_LINKS: FooterLink[] = [
   { i18nKey: 'catalog', href: '/contact/catalog' },
+  { i18nKey: 'faq', href: '/faq' },
   { i18nKey: 'contact', href: '/contact' },
   { i18nKey: 'visit', href: '/contact/visit' }
 ]

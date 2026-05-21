@@ -103,18 +103,42 @@
       "subtitle": "近年面向日本市场的脱敏案例，按品类 / 规模 / 工厂分类。",
       "viewMore": "查看全部案例",
       "items": {
-        "case01": { "title": "日本上市 EC 品牌 / 通勤背包" },
-        "case02": { "title": "户外品牌 / 托特包" },
-        "case03": { "title": "进口贸易商 / 商务包" },
-        "case04": { "title": "私立学校 / 学生书包" },
-        "case05": { "title": "户外精选店 / 运动背包" },
-        "case06": { "title": "可持续电商 / 再生面料托特" },
-        "case07": { "title": "礼品贸易商 / 30 天急单背包" },
-        "case08": { "title": "新锐品牌 / 样品试做" },
-        "case09": { "title": "旅行用品电商 / 旅行背包" },
-        "case10": { "title": "百货自有品牌 / 高端托特" },
-        "case11": { "title": "铁路系企业 / 通勤商务包" },
-        "case12": { "title": "幼教机构 / 入园背包" }
+        "case01": {
+          "title": "日本上市 EC 品牌 / 通勤背包"
+        },
+        "case02": {
+          "title": "户外品牌 / 托特包"
+        },
+        "case03": {
+          "title": "进口贸易商 / 商务包"
+        },
+        "case04": {
+          "title": "私立学校 / 学生书包"
+        },
+        "case05": {
+          "title": "户外精选店 / 运动背包"
+        },
+        "case06": {
+          "title": "可持续电商 / 再生面料托特"
+        },
+        "case07": {
+          "title": "礼品贸易商 / 30 天急单背包"
+        },
+        "case08": {
+          "title": "新锐品牌 / 样品试做"
+        },
+        "case09": {
+          "title": "旅行用品电商 / 旅行背包"
+        },
+        "case10": {
+          "title": "百货自有品牌 / 高端托特"
+        },
+        "case11": {
+          "title": "铁路系企业 / 通勤商务包"
+        },
+        "case12": {
+          "title": "幼教机构 / 入园背包"
+        }
       },
       "tags": {
         "qty": "{n} 件",
@@ -137,13 +161,34 @@
       "title": "OEM 流程",
       "subtitle": "从咨询到出货，每一步都有名字、有时间表、可追踪。",
       "items": {
-        "inquiry": { "name": "咨询", "duration": "当日～1 工作日" },
-        "hearing": { "name": "需求确认", "duration": "1-3 工作日" },
-        "quote": { "name": "报价", "duration": "3-5 工作日" },
-        "sampling": { "name": "打样", "duration": "排期 + 1 周" },
-        "ppSample": { "name": "PP 样确认", "duration": "1-2 周" },
-        "production": { "name": "量产", "duration": "PP 确认后 3 个月" },
-        "shipping": { "name": "出货 / 跟进", "duration": "出货后 1 周内" }
+        "inquiry": {
+          "name": "咨询",
+          "duration": "当日～1 工作日"
+        },
+        "hearing": {
+          "name": "需求确认",
+          "duration": "1-3 工作日"
+        },
+        "quote": {
+          "name": "报价",
+          "duration": "3-5 工作日"
+        },
+        "sampling": {
+          "name": "打样",
+          "duration": "排期 + 1 周"
+        },
+        "ppSample": {
+          "name": "PP 样确认",
+          "duration": "1-2 周"
+        },
+        "production": {
+          "name": "量产",
+          "duration": "PP 确认后 3 个月"
+        },
+        "shipping": {
+          "name": "出货 / 跟进",
+          "duration": "出货后 1 周内"
+        }
       },
       "viewMore": "查看完整流程"
     },
@@ -356,16 +401,87 @@
       "body": "内容准备中，动态与专栏将陆续公开。（XXX-公告与专栏内容待补充）"
     },
     "quality": {
-      "breadcrumb": "品质与检验",
-      "title": "品质与检验体制",
-      "intro": "日本标准二段检品 + X 线检针保证品质。",
-      "body": "中缅双工厂均配备 X 线检针机。工艺单 + 用量表 + 首件确认标准流程，配合二段检品实现日本品质，支持第三方验厂。（XXX-详细数据待补充）"
+      "breadcrumb": "品质与检品",
+      "title": "品质与检品体制",
+      "intro": "以日本标准的二段检品 + X 线检针，稳定量产品质。",
+      "overview": "中国山东与缅甸仰光双工厂均设有专门品检团队与驻厂 QC。从制程内检查到出货前检查的二段体制，叠加全数 X 线检针与可选的第三方验厂。",
+      "stepsTitle": "检品流程",
+      "steps": {
+        "ipqc": {
+          "label": "制程内检查（IPQC）",
+          "body": "在缝制线随时抽检，尽早发现并纠正问题。"
+        },
+        "oqc": {
+          "label": "出货前检查（OQC）",
+          "body": "装箱前确认外观、尺寸、辅料与包装。"
+        },
+        "xray": {
+          "label": "X 线检针（全数）",
+          "body": "全数检查断针与金属混入。"
+        },
+        "audit": {
+          "label": "第三方验厂（可选）",
+          "body": "可配合品牌、贸易商验货或第三方验厂。"
+        }
+      },
+      "methodsTitle": "品质管控手段",
+      "methods": {
+        "processSheet": "工艺单",
+        "materialList": "用量表",
+        "firstPiece": "首件确认"
+      },
+      "xrayTitle": "X 线检针机配备",
+      "xrayBody": "中国工厂 1 台、缅甸工厂 2 台，全数检针为标准。",
+      "certTitle": "认证与验厂",
+      "certNote": "（XXX-取得情况与可出具范围确认中）",
+      "ctaTitle": "品质相关咨询",
+      "ctaText": "检品标准或样品事宜，欢迎随时联系。",
+      "ctaButton": "联系我们",
+      "xray": {
+        "china": "中国工厂",
+        "myanmar": "缅甸工厂"
+      }
     },
     "leadTime": {
       "breadcrumb": "交期管理",
       "title": "交期与供给管理",
-      "intro": "明确各工序交期，实现稳定供给。",
-      "body": "国内据点最短 30 天，缅甸大货 PP 确认后约 3 个月。物流走东莞沙田仓 → 仰光港路线。（XXX-详细待补充）"
+      "intro": "明确各工序所需时间，助您稳定排产。",
+      "overview": "缅甸大货在 PP 样确认后约 3 个月；国内（山东）拠点视物料情况最快 30 天开始出货。",
+      "phasesTitle": "物料至量产工序",
+      "phases": {
+        "materials": {
+          "label": "物料采购与国内安排",
+          "duration": "约 2 周",
+          "body": "供应商生产与国内物流；有库存时可缩短。"
+        },
+        "warehouse": {
+          "label": "东莞沙田仓检品",
+          "duration": "约 1 周",
+          "body": "集中物料并检品；现货可缩短至 1-2 天。"
+        },
+        "shipping": {
+          "label": "国际运输与清关",
+          "duration": "约 2 周",
+          "body": "东莞装柜 → 等船（约 3 天）→ 海运（约 1 周）→ 仰光清关入库（约 3 天）。"
+        },
+        "production": {
+          "label": "量产",
+          "duration": "约 3 个月",
+          "body": "PP 样确认后的标准量产周期。"
+        }
+      },
+      "totalNote": "从物料安排到工厂到货约合计 1 个月；含量产标准约 4 个月。",
+      "rushTitle": "国内拠点短交期",
+      "rushBody": "山东工厂视物料情况最快 30 天开始陆续出货。",
+      "variablesTitle": "影响交期的因素",
+      "variables": {
+        "consolidation": "拼柜等待：为装满整柜而产生的拼装等待。",
+        "queue": "排产等待：物料到货后并非即刻开工，需按工厂排程。"
+      },
+      "routeNote": "物流路线：东莞沙田仓 → 仰光港。",
+      "ctaTitle": "交期咨询",
+      "ctaText": "我们会按您的目标交期提出拠点与计划建议。",
+      "ctaButton": "联系我们"
     },
     "careers": {
       "breadcrumb": "招聘",
@@ -420,19 +536,34 @@
       "historyTitle": "发展历程",
       "messageTitle": "代表致辞",
       "profile": {
-        "companyName": { "label": "公司名", "value": "青岛万翔辉（XXX-注册名确认中）" },
-        "founded": { "label": "创立", "value": "2003 年" },
-        "representative": { "label": "代表人", "value": "XXX-代表人姓名" },
+        "companyName": {
+          "label": "公司名",
+          "value": "青岛万翔辉（XXX-注册名确认中）"
+        },
+        "founded": {
+          "label": "创立",
+          "value": "2003 年"
+        },
+        "representative": {
+          "label": "代表人",
+          "value": "XXX-代表人姓名"
+        },
         "locations": {
           "label": "所在地",
           "value": "青岛本部 / 山东日照工厂 / 缅甸仰光工厂（Better Bags Myanmar）"
         },
-        "staff": { "label": "员工数", "value": "约 470 人（中国 + 缅甸）" },
+        "staff": {
+          "label": "员工数",
+          "value": "约 470 人（中国 + 缅甸）"
+        },
         "business": {
           "label": "主营业务",
           "value": "背包 / 托特 / 商务包等 OEM/ODM 制造"
         },
-        "certifications": { "label": "认证资质", "value": "XXX-BSCI / SEDEX / ISO 等确认中" }
+        "certifications": {
+          "label": "认证资质",
+          "value": "XXX-BSCI / SEDEX / ISO 等确认中"
+        }
       },
       "history": {
         "founded": "青岛万翔辉 成立",
@@ -474,9 +605,18 @@
       "breadcrumb": "工厂与设备",
       "intro": "两个国家，三个据点。打样、小批量、大货，各用最合适的据点。",
       "items": {
-        "qingdao": { "name": "青岛打样中心", "subtitle": "开发 / 打样 / 改版 / 核价据点。最短 1 周首样。" },
-        "shandong": { "name": "山东工厂", "subtitle": "打样 / 急单 / 多款的国内据点" },
-        "myanmar": { "name": "缅甸工厂（Better Bags Myanmar）", "subtitle": "大货长单 + 日本品质并行的海外据点" }
+        "qingdao": {
+          "name": "青岛打样中心",
+          "subtitle": "开发 / 打样 / 改版 / 核价据点。最短 1 周首样。"
+        },
+        "shandong": {
+          "name": "山东工厂",
+          "subtitle": "打样 / 急单 / 多款的国内据点"
+        },
+        "myanmar": {
+          "name": "缅甸工厂（Better Bags Myanmar）",
+          "subtitle": "大货长单 + 日本品质并行的海外据点"
+        }
       },
       "metrics": {
         "area": "面积",
@@ -494,11 +634,173 @@
       "phoneNote": "电话咨询：XXX-公开电话（工作日 9:00-18:00 JST）",
       "open": "前往",
       "entries": {
-        "inquiry": { "title": "在线询盘", "desc": "把您的需求告诉我们，24 小时内回复。" },
-        "catalog": { "title": "下载目录", "desc": "工厂 / 设备 / 案例汇总的最新目录（PDF）。" },
-        "visit": { "title": "工厂参观", "desc": "青岛 / 山东 / 缅甸据点均可参观。" },
-        "sample": { "title": "样品委托", "desc": "提供设计稿或参考品，我们可以为您试做。" }
+        "inquiry": {
+          "title": "在线询盘",
+          "desc": "把您的需求告诉我们，24 小时内回复。"
+        },
+        "catalog": {
+          "title": "下载目录",
+          "desc": "工厂 / 设备 / 案例汇总的最新目录（PDF）。"
+        },
+        "visit": {
+          "title": "工厂参观",
+          "desc": "青岛 / 山东 / 缅甸据点均可参观。"
+        },
+        "sample": {
+          "title": "样品委托",
+          "desc": "提供设计稿或参考品，我们可以为您试做。"
+        }
       }
+    },
+    "commercial": {
+      "breadcrumb": "商务条件",
+      "title": "商务条件",
+      "intro": "明确贸易条件、结算与最小起订量，让合作更顺畅。",
+      "tradeTitle": "贸易条件（Incoterms）",
+      "trade": {
+        "fobYangon": {
+          "label": "FOB 仰光（缅甸大货）",
+          "body": "缅甸生产的大货默认报 FOB 仰光。"
+        },
+        "fobQingdao": {
+          "label": "FOB 青岛（国内 / 急单）",
+          "body": "国内（山东）试作与急单默认报 FOB 青岛。"
+        },
+        "cif": {
+          "label": "可做 CIF",
+          "body": "可按需求提供 CIF 报价。"
+        }
+      },
+      "paymentTitle": "结算条件",
+      "payment": {
+        "newClient": {
+          "label": "新客户",
+          "body": "默认 T/T 30% 定金 + 70% 尾款。"
+        },
+        "longTerm": {
+          "label": "长期客户",
+          "body": "视信用额度，支持见提单复印件 / 提货后 1 周内 T/T。"
+        },
+        "lc": {
+          "label": "可做 L/C",
+          "body": "大额或特殊订单可用 L/C 结算。"
+        }
+      },
+      "moqTitle": "最小起订量（MOQ）",
+      "moqBody": "国内（山东）单款数百至数万件；缅甸单款单色 1,500 件以上为参考。",
+      "ctaTitle": "索取报价",
+      "ctaText": "请告知品类、数量与期望条件。",
+      "ctaButton": "联系我们"
+    },
+    "sampling": {
+      "breadcrumb": "打样",
+      "title": "打样（试作）",
+      "intro": "从报价到首样的流程，以及修改对应的参考。",
+      "stepsTitle": "打样流程",
+      "steps": {
+        "quote": {
+          "label": "报价",
+          "meta": "随时",
+          "body": "根据品类、数量与规格概要给出概算。"
+        },
+        "queue": {
+          "label": "排入打样计划",
+          "meta": "视当期排单量",
+          "body": "收到原型 / 设计稿后排入打样室计划。"
+        },
+        "firstSample": {
+          "label": "首样制作",
+          "meta": "排入后约 7 天",
+          "body": "制作首样并安排寄出。"
+        },
+        "revision": {
+          "label": "修改对应",
+          "meta": "通常 1-2 次",
+          "body": "以二次 / 三次样在合理范围内修改。"
+        }
+      },
+      "notesTitle": "说明",
+      "notes": {
+        "fee": "打样费用与条件将个别说明。（XXX-费用政策确认中）",
+        "intent": "以量产为前提的咨询会更顺畅。"
+      },
+      "ctaTitle": "样品申请",
+      "ctaText": "如有设计稿 / 参考品请一并寄送。",
+      "ctaButton": "样品申请"
+    },
+    "faq": {
+      "breadcrumb": "常见问题",
+      "title": "常见问题",
+      "intro": "汇总 OEM、交期、价格、参观、品质、物流的常见问题。",
+      "cat": {
+        "oem": "关于 OEM",
+        "leadTime": "交期",
+        "price": "价格与结算",
+        "visit": "工厂参观",
+        "quality": "品质",
+        "logistics": "物流"
+      },
+      "q": {
+        "oem": {
+          "moq": "最小起订量（MOQ）是多少？",
+          "revision": "样品可修改几次？",
+          "design": "没有设计也能咨询吗？"
+        },
+        "leadTime": {
+          "standard": "量产标准交期？",
+          "rush": "加急怎么办？"
+        },
+        "price": {
+          "payment": "付款条件是？",
+          "terms": "贸易条件（Incoterms）是？",
+          "currency": "可以用 L/C 吗？"
+        },
+        "visit": {
+          "booking": "可以参观工厂吗？",
+          "myanmar": "缅甸工厂如何参观？",
+          "sites": "可参观哪些拠点？"
+        },
+        "quality": {
+          "xray": "检针体制如何？",
+          "audit": "能配合第三方验厂吗？"
+        },
+        "logistics": {
+          "route": "物流路线是？",
+          "sourcing": "物料如何采购？"
+        }
+      },
+      "a": {
+        "oem": {
+          "moq": "国内单款数百件起，缅甸单款单色 1,500 件以上为参考。",
+          "revision": "通常对应 1-2 次合理修改。",
+          "design": "可从品类、用途与参考图开始咨询。"
+        },
+        "leadTime": {
+          "standard": "缅甸大货在 PP 样确认后约 3 个月。",
+          "rush": "国内（山东）拠点视物料情况最快 30 天开始出货。"
+        },
+        "price": {
+          "payment": "新客户 T/T 30% + 70%，长期客户按信用条件。",
+          "terms": "缅甸大货默认 FOB 仰光，国内默认 FOB 青岛；亦可 CIF。",
+          "currency": "大额或特殊订单可用 L/C 结算。"
+        },
+        "visit": {
+          "booking": "三个拠点均可预约参观。",
+          "myanmar": "因签证与行程安排，请提前 1-2 周申请。",
+          "sites": "青岛、山东（日照）、缅甸（仰光）各拠点。"
+        },
+        "quality": {
+          "xray": "以全数 X 线检针为标准，中国 1 台、缅甸 2 台。",
+          "audit": "可配合品牌 / 贸易商验货及第三方验厂。"
+        },
+        "logistics": {
+          "route": "物料集中于东莞沙田仓，经仰光港运输。",
+          "sourcing": "纯委托、部分支给、全量采购等按需求对应。"
+        }
+      },
+      "ctaTitle": "其他问题",
+      "ctaText": "未尽事宜欢迎随时联系。",
+      "ctaButton": "联系我们"
     }
   },
   "footer": {
@@ -533,7 +835,10 @@
     "shandongAddress": "中国山东省日照市莒县洛河镇",
     "myanmarLabel": "缅甸工厂",
     "myanmarAddress": "Yangon NGWE PIN LAI（Better Bags Myanmar）",
-    "copyright": "© {year} 青岛万翔辉 版权所有。"
+    "copyright": "© {year} 青岛万翔辉 版权所有。",
+    "commercial": "商务条件",
+    "sampling": "打样",
+    "faq": "常见问题"
   },
   "noticeBar": {
     "dismiss": "关闭"

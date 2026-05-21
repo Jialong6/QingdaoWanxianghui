@@ -8,14 +8,20 @@ import { Section, Container, Breadcrumb } from '@/components/ui'
 
 type Params = { locale: string }
 
-/** HTML sitemap 链接项：[路径, nav 翻译 key] */
-const LINKS: Array<[string, string]> = [
+/** HTML sitemap 链接项：[路径, 翻译 key, 命名空间（默认 nav）] */
+type LinkRow = [string, string, ('nav' | 'footer')?]
+const LINKS: LinkRow[] = [
   ['/strength', 'strength'],
   ['/oem-flow', 'oemFlow'],
   ['/factory', 'factory'],
   ['/works', 'works'],
   ['/about', 'about'],
   ['/news', 'news'],
+  ['/quality', 'quality', 'footer'],
+  ['/lead-time', 'leadTime', 'footer'],
+  ['/commercial', 'commercial', 'footer'],
+  ['/sampling', 'sampling', 'footer'],
+  ['/faq', 'faq', 'footer'],
   ['/contact', 'contact'],
   ['/contact/inquiry', 'contact'],
   ['/contact/catalog', 'catalog'],
@@ -47,6 +53,8 @@ export default async function SitemapPage({ params }: { params: Promise<Params> 
 
   const t = await getTranslations('pages.sitemap')
   const tNav = await getTranslations('nav')
+  const tFooter = await getTranslations('footer')
+  const label = (key: string, ns?: 'nav' | 'footer') => (ns === 'footer' ? tFooter(key) : tNav(key))
 
   return (
     <Section
@@ -62,13 +70,13 @@ export default async function SitemapPage({ params }: { params: Promise<Params> 
           items={[{ label: t('title'), href: '/' }, { label: t('breadcrumb') }]}
         />
         <ul className="space-y-3">
-          {LINKS.map(([href, key]) => (
+          {LINKS.map(([href, key, ns]) => (
             <li key={href}>
               <Link
                 href={href}
                 className="text-primary-500 transition-colors hover:text-primary-700"
               >
-                {tNav(key)}
+                {label(key, ns)}
                 <span className="ml-2 text-xs text-neutral-400">{href}</span>
               </Link>
             </li>
