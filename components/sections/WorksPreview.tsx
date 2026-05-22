@@ -5,9 +5,12 @@ import { WORKS } from '@/lib/content/mock/works'
 
 /**
  * 屏 5：制作事例 12 缩略图（plan.md §5.1）
+ * - 首页只预览前 12（全 24 例在 /works，多维筛选）
  * - 4×3 网格（lg）/ 2×6（md）/ 1×12（sm）
  * - 每张：图 + tag 行（品类/工厂/数量/周期）+ 匿名标题
  */
+const PREVIEW = WORKS.slice(0, 12)
+
 export function WorksPreview() {
   const t = useTranslations('home.works')
   const tags = useTranslations('home.works.tags')
@@ -23,7 +26,7 @@ export function WorksPreview() {
       containerSize="2xl"
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {WORKS.map((c) => (
+        {PREVIEW.map((c) => (
           <article key={c.id} className="group">
             <OptimizedImage
               src={c.image}

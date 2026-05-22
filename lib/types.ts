@@ -31,6 +31,12 @@ export interface PainPoint {
 /** 工厂归属 tag（案例展示用） */
 export type FactoryTag = 'qingdao' | 'shandong' | 'myanmar'
 
+/** 用途场景 tag（案例多维筛选用，与 category/factory 正交） */
+export type SceneTag = 'commute' | 'business' | 'school' | 'outdoor' | 'travel'
+
+/** 主素材 tag（案例多维筛选用） */
+export type MaterialTag = 'nylon' | 'polyester' | 'canvas' | 'recycled' | 'leather'
+
 export interface CaseItem {
   id: string
   /** 案例缩略图（placeholder URL） */
@@ -39,6 +45,10 @@ export interface CaseItem {
   titleKey: string
   /** 品类 i18n key（backpack/tote/business/student/other） */
   category: 'backpack' | 'tote' | 'business' | 'student' | 'other'
+  /** 用途场景 tag（通勤/出張・ビジネス/通学/アウトドア/旅行） */
+  scene: SceneTag
+  /** 主素材 tag */
+  material: MaterialTag
   /** 数量 */
   quantity: string
   /** 工厂 tag */

@@ -43,6 +43,8 @@ export default async function WorkDetailPage({ params }: { params: Promise<Param
   const tp = await getTranslations('pages.works')
   const td = await getTranslations('pages.works.detail')
   const cat = await getTranslations('home.works.category')
+  const scene = await getTranslations('home.works.scene')
+  const material = await getTranslations('home.works.material')
   const tags = await getTranslations('home.works.tags')
   const tNav = await getTranslations('nav')
 
@@ -75,9 +77,11 @@ export default async function WorkDetailPage({ params }: { params: Promise<Param
         />
 
         {/* メタ情報 */}
-        <dl className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <dl className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
           {[
             { label: td('metaCategory'), value: cat(item.category) },
+            { label: td('metaScene'), value: scene(item.scene) },
+            { label: td('metaMaterial'), value: material(item.material) },
             {
               label: td('metaQuantity'),
               value: item.quantity === 'Sample' ? tags('qtySample') : tags('qty', { n: item.quantity })

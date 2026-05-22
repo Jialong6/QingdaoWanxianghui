@@ -138,6 +138,42 @@
         },
         "case12": {
           "title": "幼教机构 / 入园背包"
+        },
+        "case13": {
+          "title": "户外用品厂商 / 帆布背包"
+        },
+        "case14": {
+          "title": "旅行杂货品牌 / 轻量旅行托特包"
+        },
+        "case15": {
+          "title": "IT 企业 / 轻量商务包"
+        },
+        "case16": {
+          "title": "教培连锁 / 通学背包"
+        },
+        "case17": {
+          "title": "户外品牌 / 再生材料旅行背包"
+        },
+        "case18": {
+          "title": "精品集合店 / 通勤帆布托特"
+        },
+        "case19": {
+          "title": "商社 / 合成皮革商务公文包"
+        },
+        "case20": {
+          "title": "服饰电商 / 通勤日用背包"
+        },
+        "case21": {
+          "title": "户外品牌 / 收纳包·小物套装"
+        },
+        "case22": {
+          "title": "高校学生合作社 / 再生环保托特"
+        },
+        "case23": {
+          "title": "户外初创公司 / 试制背包"
+        },
+        "case24": {
+          "title": "文具厂商 / 学生用帆布背包"
         }
       },
       "tags": {
@@ -154,6 +190,20 @@
         "business": "商务",
         "student": "学生",
         "other": "其他"
+      },
+      "scene": {
+        "commute": "通勤",
+        "business": "商务出差",
+        "school": "通学",
+        "outdoor": "户外",
+        "travel": "旅行"
+      },
+      "material": {
+        "nylon": "尼龙",
+        "polyester": "涤纶",
+        "canvas": "帆布",
+        "recycled": "再生材料",
+        "leather": "合成皮革"
       }
     },
     "oemFlow": {
@@ -617,8 +667,17 @@
         "metaDuration": "制作周期",
         "galleryTitle": "图集",
         "relatedTitle": "相关案例",
-        "cta": "类似项目咨询请点这里"
-      }
+        "cta": "类似项目咨询请点这里",
+        "metaScene": "用途",
+        "metaMaterial": "材质"
+      },
+      "filterCategoryLabel": "品类",
+      "filterSceneLabel": "用途",
+      "filterFactoryLabel": "生产基地",
+      "filterMaterialLabel": "材质",
+      "filterReset": "重置",
+      "resultCount": "{n} 个案例",
+      "noResults": "没有符合条件的案例，请调整筛选条件。"
     },
     "factory": {
       "breadcrumb": "工厂与设备",

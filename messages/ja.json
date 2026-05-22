@@ -138,6 +138,42 @@
         },
         "case12": {
           "title": "幼児教育法人様 / 通園リュック"
+        },
+        "case13": {
+          "title": "アウトドア用品メーカー様 / キャンバスバックパック"
+        },
+        "case14": {
+          "title": "旅行雑貨ブランド様 / 軽量トラベルトート"
+        },
+        "case15": {
+          "title": "IT 企業様 / 軽量ビジネスバッグ"
+        },
+        "case16": {
+          "title": "学習塾チェーン様 / 通学リュック"
+        },
+        "case17": {
+          "title": "アウトドアブランド様 / リサイクル素材トラベルパック"
+        },
+        "case18": {
+          "title": "セレクトショップ様 / 通勤キャンバストート"
+        },
+        "case19": {
+          "title": "商社様 / 合皮ビジネスブリーフ"
+        },
+        "case20": {
+          "title": "アパレル EC 様 / 通勤デイパック"
+        },
+        "case21": {
+          "title": "アウトドアブランド様 / ポーチ・小物セット"
+        },
+        "case22": {
+          "title": "大学生協様 / リサイクルエコトート"
+        },
+        "case23": {
+          "title": "アウトドアスタートアップ様 / 試作バックパック"
+        },
+        "case24": {
+          "title": "文具メーカー様 / 学生用キャンバスリュック"
         }
       },
       "tags": {
@@ -154,6 +190,20 @@
         "business": "ビジネス",
         "student": "学生用",
         "other": "その他"
+      },
+      "scene": {
+        "commute": "通勤",
+        "business": "ビジネス・出張",
+        "school": "通学",
+        "outdoor": "アウトドア",
+        "travel": "旅行"
+      },
+      "material": {
+        "nylon": "ナイロン",
+        "polyester": "ポリエステル",
+        "canvas": "キャンバス",
+        "recycled": "リサイクル素材",
+        "leather": "合成皮革"
       }
     },
     "oemFlow": {
@@ -617,8 +667,17 @@
         "metaDuration": "製作期間",
         "galleryTitle": "ギャラリー",
         "relatedTitle": "関連事例",
-        "cta": "似たプロジェクトのご相談はこちら"
-      }
+        "cta": "似たプロジェクトのご相談はこちら",
+        "metaScene": "用途",
+        "metaMaterial": "素材"
+      },
+      "filterCategoryLabel": "品類",
+      "filterSceneLabel": "用途",
+      "filterFactoryLabel": "生産拠点",
+      "filterMaterialLabel": "素材",
+      "filterReset": "リセット",
+      "resultCount": "{n} 件",
+      "noResults": "該当する事例がありません。条件を変更してください。"
     },
     "factory": {
       "breadcrumb": "工場と設備",

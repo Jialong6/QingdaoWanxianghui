@@ -138,6 +138,42 @@
         },
         "case12": {
           "title": "Early-childhood school / kindergarten backpack"
+        },
+        "case13": {
+          "title": "Outdoor goods maker / canvas backpack"
+        },
+        "case14": {
+          "title": "Travel goods brand / lightweight travel tote"
+        },
+        "case15": {
+          "title": "IT company / lightweight business bag"
+        },
+        "case16": {
+          "title": "Cram-school chain / school backpack"
+        },
+        "case17": {
+          "title": "Outdoor brand / recycled-material travel pack"
+        },
+        "case18": {
+          "title": "Select shop / commuter canvas tote"
+        },
+        "case19": {
+          "title": "Trading company / synthetic-leather business brief"
+        },
+        "case20": {
+          "title": "Apparel EC / commuter daypack"
+        },
+        "case21": {
+          "title": "Outdoor brand / pouch & accessory set"
+        },
+        "case22": {
+          "title": "University co-op / recycled eco tote"
+        },
+        "case23": {
+          "title": "Outdoor startup / prototype backpack"
+        },
+        "case24": {
+          "title": "Stationery maker / student canvas backpack"
         }
       },
       "tags": {
@@ -154,6 +190,20 @@
         "business": "Business",
         "student": "Student",
         "other": "Other"
+      },
+      "scene": {
+        "commute": "Commute",
+        "business": "Business",
+        "school": "School",
+        "outdoor": "Outdoor",
+        "travel": "Travel"
+      },
+      "material": {
+        "nylon": "Nylon",
+        "polyester": "Polyester",
+        "canvas": "Canvas",
+        "recycled": "Recycled",
+        "leather": "Synthetic leather"
       }
     },
     "oemFlow": {
@@ -617,8 +667,17 @@
         "metaDuration": "Duration",
         "galleryTitle": "Gallery",
         "relatedTitle": "Related works",
-        "cta": "Discuss a similar project"
-      }
+        "cta": "Discuss a similar project",
+        "metaScene": "Use",
+        "metaMaterial": "Material"
+      },
+      "filterCategoryLabel": "Category",
+      "filterSceneLabel": "Use",
+      "filterFactoryLabel": "Factory",
+      "filterMaterialLabel": "Material",
+      "filterReset": "Reset",
+      "resultCount": "{n} cases",
+      "noResults": "No matching cases. Try adjusting the filters."
     },
     "factory": {
       "breadcrumb": "Factories",
