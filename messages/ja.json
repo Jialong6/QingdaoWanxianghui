@@ -626,6 +626,65 @@
         "xrayMachine": "X 線検針機",
         "sampleWeeks": "週間で初サンプル",
         "coreServices": "コア業務"
+      },
+      "hubCta": "詳しく見る",
+      "equipment": {
+        "flat": "平車",
+        "computer": "電脳車（自動）",
+        "auxiliary": "補助設備",
+        "xray": "X 線検針機",
+        "post": "高車（ポスト）",
+        "doubleNeedle": "二本針",
+        "cutting": "裁断機",
+        "riveting": "打鋲機",
+        "swingArm": "アーム式高車",
+        "tapeCutting": "テープ裁断機",
+        "steaming": "アイロン／スチーマー"
+      },
+      "detail": {
+        "equipmentTitle": "設備",
+        "equipmentTbd": "設備の詳細は準備中です。",
+        "capabilitiesTitle": "得意とする受注",
+        "orderScaleTitle": "受注規模",
+        "accessTitle": "アクセス",
+        "logisticsTitle": "物流",
+        "videoTitle": "工場の様子",
+        "videoPlaceholder": "（動画準備中）",
+        "visitCta": "工場見学を申し込む"
+      },
+      "sites": {
+        "qingdao": {
+          "overview": "青島の打样中心。開発・サンプル製作・改版・コスト試算を担い、デザインの方向性が固まれば最短 1 週間で初サンプルをお出しします。",
+          "capabilities": {
+            "development": "企画・開発サポート",
+            "sampling": "サンプル製作",
+            "revision": "改版・仕様調整",
+            "costing": "コスト試算・見積り"
+          },
+          "orderScale": "試作・小ロットのご相談に対応します。",
+          "access": "青島市内。流亭／膠東国際空港より車でお越しいただけます。（XXX-具体的な住所・交通案内は確認中）"
+        },
+        "shandong": {
+          "overview": "山東省日照市の自社工場。約 8,000㎡・縫製スタッフ約 100 名。打样から国内小ロット・多品種・急単までを担う国内拠点です。",
+          "capabilities": {
+            "sampling": "打样・初期サンプル",
+            "smallLot": "国内小ロット試単",
+            "multiStyle": "多品種並行生産",
+            "rush": "急単（最短 30 日で出荷開始）"
+          },
+          "orderScale": "単款数百個から数万個まで対応します。"
+        },
+        "myanmar": {
+          "overview": "緬甸仰光の Better Bags Myanmar。縫製スタッフ約 370 名と充実した設備で、中大ロット・繰り返し発注・労働集約型の長単に対応します。",
+          "capabilities": {
+            "bulk": "中大ロット生産",
+            "repeat": "繰り返し発注",
+            "laborIntensive": "労働集約型の長単"
+          },
+          "orderScale": "単款単色 1,500 個以上が目安です。",
+          "logistics": "国内・東莞沙田倉に資材を集約し、仰光港経由で工場へ搬入します。",
+          "visaNote": "緬甸工場のご見学はビザ・渡航手配のため、1〜2 週間前のお申し込みをお願いします。"
+        }
       }
     },
     "contact": {

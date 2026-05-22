@@ -9,11 +9,14 @@ import { Section, Container, Breadcrumb } from '@/components/ui'
 type Params = { locale: string }
 
 /** HTML sitemap 链接项：[路径, 翻译 key, 命名空间（默认 nav）] */
-type LinkRow = [string, string, ('nav' | 'footer')?]
+type LinkRow = [string, string, ('nav' | 'footer' | 'factory')?]
 const LINKS: LinkRow[] = [
   ['/strength', 'strength'],
   ['/oem-flow', 'oemFlow'],
   ['/factory', 'factory'],
+  ['/factory/qingdao', 'qingdao', 'factory'],
+  ['/factory/shandong', 'shandong', 'factory'],
+  ['/factory/myanmar', 'myanmar', 'factory'],
   ['/works', 'works'],
   ['/about', 'about'],
   ['/news', 'news'],
@@ -54,7 +57,12 @@ export default async function SitemapPage({ params }: { params: Promise<Params> 
   const t = await getTranslations('pages.sitemap')
   const tNav = await getTranslations('nav')
   const tFooter = await getTranslations('footer')
-  const label = (key: string, ns?: 'nav' | 'footer') => (ns === 'footer' ? tFooter(key) : tNav(key))
+  const tFactoryItems = await getTranslations('pages.factory.items')
+  const label = (key: string, ns?: 'nav' | 'footer' | 'factory') => {
+    if (ns === 'footer') return tFooter(key)
+    if (ns === 'factory') return tFactoryItems(`${key}.name`)
+    return tNav(key)
+  }
 
   return (
     <Section

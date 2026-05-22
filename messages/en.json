@@ -626,6 +626,65 @@
         "xrayMachine": "X-ray detectors",
         "sampleWeeks": "wks to first sample",
         "coreServices": "core services"
+      },
+      "hubCta": "View details",
+      "equipment": {
+        "flat": "Flat-bed machines",
+        "computer": "Computerized machines",
+        "auxiliary": "Auxiliary machines",
+        "xray": "X-ray detectors",
+        "post": "Post-bed machines",
+        "doubleNeedle": "Double-needle machines",
+        "cutting": "Cutting machines",
+        "riveting": "Riveting machines",
+        "swingArm": "Swing-arm post machines",
+        "tapeCutting": "Tape-cutting machines",
+        "steaming": "Steam irons"
+      },
+      "detail": {
+        "equipmentTitle": "Equipment",
+        "equipmentTbd": "Equipment details coming soon.",
+        "capabilitiesTitle": "Best-fit orders",
+        "orderScaleTitle": "Order scale",
+        "accessTitle": "Access",
+        "logisticsTitle": "Logistics",
+        "videoTitle": "Inside the factory",
+        "videoPlaceholder": "(video coming soon)",
+        "visitCta": "Book a factory visit"
+      },
+      "sites": {
+        "qingdao": {
+          "overview": "Our sampling center in Qingdao handles development, sample making, revisions and costing. Once the design direction is set, a first sample can be ready in as little as one week.",
+          "capabilities": {
+            "development": "Planning & development support",
+            "sampling": "Sample making",
+            "revision": "Revisions & spec tuning",
+            "costing": "Costing & quotation"
+          },
+          "orderScale": "Suited to trial and small-lot inquiries.",
+          "access": "In Qingdao city; accessible by car from Liuting / Jiaodong International Airport. (XXX - exact address and access to be confirmed)"
+        },
+        "shandong": {
+          "overview": "Our own factory in Rizhao, Shandong: about 8,000 sqm with around 100 sewing staff. A domestic site for sampling, small lots, multi-style and rush orders.",
+          "capabilities": {
+            "sampling": "Sampling & first samples",
+            "smallLot": "Domestic small-lot trials",
+            "multiStyle": "Multi-style parallel production",
+            "rush": "Rush orders (shipping from 30 days)"
+          },
+          "orderScale": "From a few hundred to tens of thousands per style."
+        },
+        "myanmar": {
+          "overview": "Better Bags Myanmar in Yangon: around 370 sewing staff and extensive equipment for medium-to-large lots, repeat orders and labor-intensive long runs.",
+          "capabilities": {
+            "bulk": "Medium-to-large lot production",
+            "repeat": "Repeat orders",
+            "laborIntensive": "Labor-intensive long runs"
+          },
+          "orderScale": "From 1,500 units per style/color.",
+          "logistics": "Materials are consolidated at the Dongguan warehouse and delivered to the factory via Yangon port.",
+          "visaNote": "For Myanmar factory visits, please apply 1-2 weeks ahead for visa and travel arrangements."
+        }
       }
     },
     "contact": {

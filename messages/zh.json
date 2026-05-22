@@ -626,6 +626,65 @@
         "xrayMachine": "X 线检针机",
         "sampleWeeks": "周出首样",
         "coreServices": "核心业务"
+      },
+      "hubCta": "查看详情",
+      "equipment": {
+        "flat": "平车",
+        "computer": "电脑车（自动）",
+        "auxiliary": "辅助设备",
+        "xray": "X 线检针机",
+        "post": "高车（柱式）",
+        "doubleNeedle": "双针车",
+        "cutting": "裁断机",
+        "riveting": "打钉机",
+        "swingArm": "摇臂高车",
+        "tapeCutting": "切带机",
+        "steaming": "熨烫机"
+      },
+      "detail": {
+        "equipmentTitle": "设备",
+        "equipmentTbd": "设备详情准备中。",
+        "capabilitiesTitle": "得意订单",
+        "orderScaleTitle": "受注规模",
+        "accessTitle": "交通",
+        "logisticsTitle": "物流",
+        "videoTitle": "工厂实景",
+        "videoPlaceholder": "（视频准备中）",
+        "visitCta": "申请工厂参观"
+      },
+      "sites": {
+        "qingdao": {
+          "overview": "青岛打样中心，承担开发、打样、改版与核价。设计方向确定后，最快 1 周可出首样。",
+          "capabilities": {
+            "development": "企划与开发支持",
+            "sampling": "样品制作",
+            "revision": "改版与规格调整",
+            "costing": "核价与报价"
+          },
+          "orderScale": "对应试作与小批量咨询。",
+          "access": "位于青岛市内，可从流亭／胶东国际机场驱车前往。（XXX-具体地址与交通指南确认中）"
+        },
+        "shandong": {
+          "overview": "山东日照自营工厂，约 8,000㎡、缝制人员约 100 名。承接打样、国内小批量、多款并行与急单的国内拠点。",
+          "capabilities": {
+            "sampling": "打样与初期样",
+            "smallLot": "国内小批量试单",
+            "multiStyle": "多款并行生产",
+            "rush": "急单（最快 30 天开始出货）"
+          },
+          "orderScale": "单款数百件至数万件。"
+        },
+        "myanmar": {
+          "overview": "缅甸仰光 Better Bags Myanmar，缝制人员约 370 名、设备充足，承接中大货、重复款与人工密集型长单。",
+          "capabilities": {
+            "bulk": "中大货生产",
+            "repeat": "重复款返单",
+            "laborIntensive": "人工密集型长单"
+          },
+          "orderScale": "单款单色 1,500 件以上为参考。",
+          "logistics": "物料集中于国内东莞沙田仓，经仰光港运抵工厂。",
+          "visaNote": "缅甸工厂参观因签证与行程安排，请提前 1-2 周申请。"
+        }
       }
     },
     "contact": {
