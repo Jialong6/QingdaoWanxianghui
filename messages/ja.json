@@ -398,7 +398,26 @@
       "breadcrumb": "お知らせ",
       "title": "お知らせ・コラム",
       "intro": "工場の最新情報とコラムをお届けします。",
-      "body": "コンテンツを準備中です。お知らせ・コラムは順次公開予定です。（XXX-公告とコラム内容を順次追加）"
+      "filterAll": "すべて",
+      "categories": {
+        "announcement": "お知らせ",
+        "column": "コラム",
+        "diary": "工場日記"
+      },
+      "readMore": "続きを読む",
+      "detail": {
+        "publishedLabel": "公開日",
+        "tagsLabel": "タグ",
+        "relatedTitle": "関連記事"
+      },
+      "cta": {
+        "caseTitle": "実績をご覧になりますか？",
+        "caseButton": "制作事例を見る",
+        "processTitle": "工程をもっと知る",
+        "processButton": "OEM の流れ",
+        "inquiryTitle": "似たご相談はこちら",
+        "inquiryButton": "お問い合わせ"
+      }
     },
     "quality": {
       "breadcrumb": "品質と検品",

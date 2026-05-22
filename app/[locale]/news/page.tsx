@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { buildBaseMetadata } from '@/lib/metadata'
 import { Section, Container, Breadcrumb } from '@/components/ui'
+import { NewsList } from '@/components/sections'
 
 type Params = { locale: string }
 
@@ -22,7 +23,7 @@ export async function generateMetadata({
   return buildBaseMetadata(locale, { path: '/news', title: tMeta('title') })
 }
 
-export default async function PlaceholderPage({ params }: { params: Promise<Params> }) {
+export default async function NewsPage({ params }: { params: Promise<Params> }) {
   const { locale } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale as Locale)
@@ -30,19 +31,10 @@ export default async function PlaceholderPage({ params }: { params: Promise<Para
   const t = await getTranslations('pages.news')
 
   return (
-    <Section
-      eyebrow="NEWS"
-      title={t('title')}
-      subtitle={t('intro')}
-      background="subtle"
-      containerSize="prose"
-    >
-      <Container size="prose" className="px-0">
-        <Breadcrumb
-          className="mb-8"
-          items={[{ label: t('title'), href: '/' }, { label: t('breadcrumb') }]}
-        />
-        <p className="text-body whitespace-pre-line text-neutral-700">{t('body')}</p>
+    <Section eyebrow="NEWS" title={t('title')} subtitle={t('intro')} background="subtle" containerSize="2xl">
+      <Container size="2xl" className="px-0">
+        <Breadcrumb className="mb-10" items={[{ label: t('title'), href: '/' }, { label: t('breadcrumb') }]} />
+        <NewsList />
       </Container>
     </Section>
   )

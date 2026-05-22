@@ -398,7 +398,26 @@
       "breadcrumb": "动态",
       "title": "动态・专栏",
       "intro": "工厂最新动态与专栏文章。",
-      "body": "内容准备中，动态与专栏将陆续公开。（XXX-公告与专栏内容待补充）"
+      "filterAll": "全部",
+      "categories": {
+        "announcement": "动态",
+        "column": "专栏",
+        "diary": "工厂日记"
+      },
+      "readMore": "阅读全文",
+      "detail": {
+        "publishedLabel": "发布日",
+        "tagsLabel": "标签",
+        "relatedTitle": "相关文章"
+      },
+      "cta": {
+        "caseTitle": "想看实际案例？",
+        "caseButton": "查看制作案例",
+        "processTitle": "了解更多工序",
+        "processButton": "OEM 流程",
+        "inquiryTitle": "有类似需求？",
+        "inquiryButton": "联系我们"
+      }
     },
     "quality": {
       "breadcrumb": "品质与检品",

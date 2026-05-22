@@ -1,5 +1,6 @@
 import { WORKS } from '@/lib/content/mock/works'
 import { FACTORY_SITES } from '@/lib/content/mock/factory'
+import { ARTICLES } from '@/lib/content/mock/articles'
 
 /**
  * 全站静态路由（不含 locale 前缀），供 sitemap.ts + /sitemap 页复用。
@@ -39,7 +40,12 @@ export function factoryRoutes(): string[] {
   return FACTORY_SITES.map((s) => `/factory/${s}`)
 }
 
-/** 全部可索引路由（静态 + 案例详情 + 工厂子页） */
+/** 文章详情动态路由（/news/{slug}） */
+export function newsRoutes(): string[] {
+  return ARTICLES.map((a) => `/news/${a.slug}`)
+}
+
+/** 全部可索引路由（静态 + 案例详情 + 工厂子页 + 文章） */
 export function allRoutes(): string[] {
-  return [...STATIC_ROUTES, ...workRoutes(), ...factoryRoutes()]
+  return [...STATIC_ROUTES, ...workRoutes(), ...factoryRoutes(), ...newsRoutes()]
 }

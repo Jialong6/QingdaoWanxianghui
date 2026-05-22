@@ -398,7 +398,26 @@
       "breadcrumb": "News",
       "title": "News & Column",
       "intro": "Latest factory updates and columns.",
-      "body": "Content is in preparation. News and columns will be published progressively. (XXX-content TBC)"
+      "filterAll": "All",
+      "categories": {
+        "announcement": "News",
+        "column": "Column",
+        "diary": "Factory diary"
+      },
+      "readMore": "Read more",
+      "detail": {
+        "publishedLabel": "Published",
+        "tagsLabel": "Tags",
+        "relatedTitle": "Related articles"
+      },
+      "cta": {
+        "caseTitle": "Want to see our work?",
+        "caseButton": "View case studies",
+        "processTitle": "Learn more about the process",
+        "processButton": "OEM flow",
+        "inquiryTitle": "Have a similar inquiry?",
+        "inquiryButton": "Contact us"
+      }
     },
     "quality": {
       "breadcrumb": "Quality",

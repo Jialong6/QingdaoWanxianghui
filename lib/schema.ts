@@ -53,6 +53,27 @@ export function websiteSchema(locale: Locale) {
   }
 }
 
+/** BlogPosting（用于 news 文章详情） */
+export function articleSchema(opts: {
+  slug: string
+  headline: string
+  description: string
+  datePublished: string
+  locale: Locale
+}) {
+  const prefix = opts.locale === 'ja' ? '' : `/${opts.locale}`
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: opts.headline,
+    description: opts.description,
+    datePublished: opts.datePublished,
+    inLanguage: opts.locale,
+    url: `${SITE_URL}${prefix}/news/${opts.slug}`,
+    publisher: { '@type': 'Organization', name: NAME[opts.locale] }
+  }
+}
+
 /** FAQPage（用于 oem-flow FAQ） */
 export function faqPageSchema(items: Array<{ question: string; answer: string }>) {
   return {

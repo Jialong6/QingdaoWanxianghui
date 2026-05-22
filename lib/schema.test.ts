@@ -3,7 +3,8 @@ import {
   organizationSchema,
   localBusinessSchema,
   websiteSchema,
-  faqPageSchema
+  faqPageSchema,
+  articleSchema
 } from './schema'
 
 describe('schema', () => {
@@ -36,5 +37,31 @@ describe('schema', () => {
       name: 'Q1',
       acceptedAnswer: { '@type': 'Answer', text: 'A1' }
     })
+  })
+
+  it('articleSchema 含 @type=BlogPosting + 字段', () => {
+    const s = articleSchema({
+      slug: 'two-stage-inspection',
+      headline: '二段検品',
+      description: 'desc',
+      datePublished: '2026-04-10',
+      locale: 'ja'
+    })
+    expect(s['@type']).toBe('BlogPosting')
+    expect(s.headline).toBe('二段検品')
+    expect(s.datePublished).toBe('2026-04-10')
+    expect(s.inLanguage).toBe('ja')
+    expect(s.url).toContain('/news/two-stage-inspection')
+  })
+
+  it('articleSchema en 文章 url 带 /en 前缀', () => {
+    const s = articleSchema({
+      slug: 'x',
+      headline: 'h',
+      description: 'd',
+      datePublished: '2026-01-01',
+      locale: 'en'
+    })
+    expect(s.url).toContain('/en/news/x')
   })
 })
